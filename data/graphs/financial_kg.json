@@ -1,0 +1,2698 @@
+{
+  "stats": {
+    "num_nodes": 83,
+    "num_edges": 141,
+    "relation_distribution": {
+      "SUPPLIER_OF": 17,
+      "OPERATES_IN": 51,
+      "EXPOSED_TO": 14,
+      "CUSTOMER_OF": 14,
+      "COMPETITOR_OF": 6,
+      "SUBSIDIARY_OF": 39
+    },
+    "node_type_distribution": {
+      "Company": 15,
+      "RiskFactor": 3,
+      "RegulatoryPolicy": 1,
+      "Commodity": 2,
+      "Subsidiary": 39,
+      "Country": 19,
+      "Region": 4
+    },
+    "density": 0.020717014399059652
+  },
+  "nodes": [
+    {
+      "name": "Taiwan Semiconductor Manufacturing Company",
+      "entity_type": "Company",
+      "aliases": [
+        "TSMC",
+        "Taiwan Semi",
+        "TSMC Limited",
+        "TSM",
+        "Taiwan Semiconductor"
+      ],
+      "ticker": "TSM",
+      "cik": "0001046179",
+      "metadata": {
+        "tier": "Pure-play Foundry",
+        "sector": "Semiconductors"
+      },
+      "id": "company:tsm"
+    },
+    {
+      "name": "NVIDIA Corporation",
+      "entity_type": "Company",
+      "aliases": [
+        "NVIDIA",
+        "Nvidia Corp",
+        "NVDA",
+        "Nvidia"
+      ],
+      "ticker": "NVDA",
+      "cik": "0001045810",
+      "metadata": {
+        "tier": "Fabless Chip Designer",
+        "sector": "Semiconductors"
+      },
+      "id": "company:nvda"
+    },
+    {
+      "name": "Microsoft",
+      "entity_type": "Company",
+      "aliases": [
+        "Microsoft"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "company:microsoft"
+    },
+    {
+      "name": "Amazon",
+      "entity_type": "Company",
+      "aliases": [
+        "Amazon"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "company:amazon"
+    },
+    {
+      "name": "Alphabet",
+      "entity_type": "Company",
+      "aliases": [
+        "Alphabet"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "company:alphabet"
+    },
+    {
+      "name": "Meta",
+      "entity_type": "Company",
+      "aliases": [
+        "Meta"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "company:meta"
+    },
+    {
+      "name": "Advanced Micro Devices, Inc.",
+      "entity_type": "Company",
+      "aliases": [
+        "AMD",
+        "Advanced Micro Devices"
+      ],
+      "ticker": "AMD",
+      "cik": "0000002488",
+      "metadata": {
+        "tier": "Fabless Chip Designer",
+        "sector": "Semiconductors"
+      },
+      "id": "company:amd"
+    },
+    {
+      "name": "Intel Corporation",
+      "entity_type": "Company",
+      "aliases": [
+        "Intel",
+        "Intel Corp",
+        "INTC"
+      ],
+      "ticker": "INTC",
+      "cik": "0000050863",
+      "metadata": {
+        "tier": "Integrated Device Manufacturer",
+        "sector": "Semiconductors"
+      },
+      "id": "company:intc"
+    },
+    {
+      "name": "Natural Disaster",
+      "entity_type": "RiskFactor",
+      "aliases": [
+        "Earthquake",
+        "Seismic event",
+        "Typhoon",
+        "Hualien earthquake"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "risk:natural_disaster"
+    },
+    {
+      "name": "Taiwan Geopolitical Risk",
+      "entity_type": "RiskFactor",
+      "aliases": [
+        "Cross-strait tensions",
+        "Taiwan risk"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "risk:taiwan_geopolitical"
+    },
+    {
+      "name": "CoWoS Packaging Bottleneck",
+      "entity_type": "RiskFactor",
+      "aliases": [
+        "Advanced packaging shortage",
+        "CoWoS capacity",
+        "Packaging bottleneck"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "risk:cowos_packaging"
+    },
+    {
+      "name": "US BIS Export Restrictions",
+      "entity_type": "RegulatoryPolicy",
+      "aliases": [
+        "Export control",
+        "BIS restrictions",
+        "Commerce export controls",
+        "Trade restrictions"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "risk:us_export_controls"
+    },
+    {
+      "name": "Neon Gas Supply Bottleneck",
+      "entity_type": "Commodity",
+      "aliases": [
+        "Neon Gas Supply Bottleneck"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "commodity:neon_gas_supply_bottleneck"
+    },
+    {
+      "name": "Silicon Wafer Shortage",
+      "entity_type": "Commodity",
+      "aliases": [
+        "Silicon Wafer Shortage"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "commodity:silicon_wafer_shortage"
+    },
+    {
+      "name": "Mellanox Technologies, Ltd.",
+      "entity_type": "Subsidiary",
+      "aliases": [
+        "Mellanox Technologies, Ltd."
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "subsidiary:mellanox_technologies"
+    },
+    {
+      "name": "Israel",
+      "entity_type": "Country",
+      "aliases": [
+        "Israel"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "country:israel"
+    },
+    {
+      "name": "NVIDIA International Holdings B.V.",
+      "entity_type": "Subsidiary",
+      "aliases": [
+        "NVIDIA International Holdings B.V."
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "subsidiary:nvidia_international"
+    },
+    {
+      "name": "Netherlands",
+      "entity_type": "Region",
+      "aliases": [
+        "The Netherlands",
+        "Holland",
+        "Veldhoven"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "region:netherlands"
+    },
+    {
+      "name": "NVIDIA Singapore PTE. LTD.",
+      "entity_type": "Subsidiary",
+      "aliases": [
+        "NVIDIA Singapore PTE. LTD."
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "subsidiary:nvidia_singapore"
+    },
+    {
+      "name": "Singapore",
+      "entity_type": "Country",
+      "aliases": [
+        "Singapore"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "country:singapore"
+    },
+    {
+      "name": "NVIDIA Development UK Ltd",
+      "entity_type": "Subsidiary",
+      "aliases": [
+        "NVIDIA Development UK Ltd"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "subsidiary:nvidia_development_uk"
+    },
+    {
+      "name": "United Kingdom",
+      "entity_type": "Country",
+      "aliases": [
+        "United Kingdom"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "country:united_kingdom"
+    },
+    {
+      "name": "NVIDIA Semiconductor Technology (Shanghai) Co., Ltd.",
+      "entity_type": "Subsidiary",
+      "aliases": [
+        "NVIDIA Semiconductor Technology (Shanghai) Co., Ltd."
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "subsidiary:nvidia_semiconductor_technology_shanghai"
+    },
+    {
+      "name": "China",
+      "entity_type": "Region",
+      "aliases": [
+        "PRC",
+        "People's Republic of China",
+        "Shanghai",
+        "Shenzhen",
+        "Zhengzhou"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "region:china"
+    },
+    {
+      "name": "NVIDIA Graphics Private Limited",
+      "entity_type": "Subsidiary",
+      "aliases": [
+        "NVIDIA Graphics Private Limited"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "subsidiary:nvidia_graphics"
+    },
+    {
+      "name": "India",
+      "entity_type": "Country",
+      "aliases": [
+        "India"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "country:india"
+    },
+    {
+      "name": "Cumulus Networks, Inc.",
+      "entity_type": "Subsidiary",
+      "aliases": [
+        "Cumulus Networks, Inc."
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "subsidiary:cumulus_networks"
+    },
+    {
+      "name": "Delaware",
+      "entity_type": "Country",
+      "aliases": [
+        "Delaware"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "country:delaware"
+    },
+    {
+      "name": "Apple Inc.",
+      "entity_type": "Company",
+      "aliases": [
+        "Apple",
+        "Apple Computer",
+        "AAPL"
+      ],
+      "ticker": "AAPL",
+      "cik": "0000320193",
+      "metadata": {
+        "tier": "OEM / Consumer Electronics",
+        "sector": "Technology"
+      },
+      "id": "company:aapl"
+    },
+    {
+      "name": "Qualcomm Incorporated",
+      "entity_type": "Company",
+      "aliases": [
+        "Qualcomm",
+        "QCOM"
+      ],
+      "ticker": "QCOM",
+      "cik": "0000804328",
+      "metadata": {
+        "tier": "Fabless Communications",
+        "sector": "Semiconductors"
+      },
+      "id": "company:qcom"
+    },
+    {
+      "name": "Broadcom",
+      "entity_type": "Company",
+      "aliases": [
+        "Broadcom"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "company:broadcom"
+    },
+    {
+      "name": "Taiwan",
+      "entity_type": "Region",
+      "aliases": [
+        "ROC",
+        "Republic of China",
+        "Hsinchu",
+        "Taichung",
+        "Tainan"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "region:taiwan"
+    },
+    {
+      "name": "TSMC North America",
+      "entity_type": "Subsidiary",
+      "aliases": [
+        "TSMC North America"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "subsidiary:tsmc_north_america"
+    },
+    {
+      "name": "California",
+      "entity_type": "Country",
+      "aliases": [
+        "California"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "country:california"
+    },
+    {
+      "name": "TSMC Arizona Corporation",
+      "entity_type": "Subsidiary",
+      "aliases": [
+        "TSMC Arizona Corporation"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "subsidiary:tsmc_arizona"
+    },
+    {
+      "name": "Arizona",
+      "entity_type": "Country",
+      "aliases": [
+        "Arizona"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "country:arizona"
+    },
+    {
+      "name": "Japan Advanced Semiconductor Manufacturing, Inc. (JASM)",
+      "entity_type": "Subsidiary",
+      "aliases": [
+        "Japan Advanced Semiconductor Manufacturing, Inc. (JASM)"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "subsidiary:japan_advanced_semiconductor_manufacturing_jasm"
+    },
+    {
+      "name": "Kumamoto",
+      "entity_type": "Country",
+      "aliases": [
+        "Kumamoto"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "country:kumamoto"
+    },
+    {
+      "name": "TSMC Europe B.V.",
+      "entity_type": "Subsidiary",
+      "aliases": [
+        "TSMC Europe B.V."
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "subsidiary:tsmc_europe"
+    },
+    {
+      "name": "Amsterdam",
+      "entity_type": "Country",
+      "aliases": [
+        "Amsterdam"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "country:amsterdam"
+    },
+    {
+      "name": "TSMC China Company Limited",
+      "entity_type": "Subsidiary",
+      "aliases": [
+        "TSMC China Company Limited"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "subsidiary:tsmc_china"
+    },
+    {
+      "name": "Nanjing",
+      "entity_type": "Country",
+      "aliases": [
+        "Nanjing"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "country:nanjing"
+    },
+    {
+      "name": "European Semiconductor Manufacturing Company (ESMC) GmbH",
+      "entity_type": "Subsidiary",
+      "aliases": [
+        "European Semiconductor Manufacturing Company (ESMC) GmbH"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "subsidiary:european_semiconductor_manufacturing_esmc"
+    },
+    {
+      "name": "Dresden",
+      "entity_type": "Country",
+      "aliases": [
+        "Dresden"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "country:dresden"
+    },
+    {
+      "name": "Apple Operations International Ltd",
+      "entity_type": "Subsidiary",
+      "aliases": [
+        "Apple Operations International Ltd"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "subsidiary:apple_operations_international"
+    },
+    {
+      "name": "Ireland",
+      "entity_type": "Country",
+      "aliases": [
+        "Ireland"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "country:ireland"
+    },
+    {
+      "name": "Apple Operations Europe Ltd",
+      "entity_type": "Subsidiary",
+      "aliases": [
+        "Apple Operations Europe Ltd"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "subsidiary:apple_operations_europe"
+    },
+    {
+      "name": "Apple Distribution International Ltd",
+      "entity_type": "Subsidiary",
+      "aliases": [
+        "Apple Distribution International Ltd"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "subsidiary:apple_distribution_international"
+    },
+    {
+      "name": "Apple Japan Inc.",
+      "entity_type": "Subsidiary",
+      "aliases": [
+        "Apple Japan Inc."
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "subsidiary:apple_japan"
+    },
+    {
+      "name": "Tokyo",
+      "entity_type": "Country",
+      "aliases": [
+        "Tokyo"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "country:tokyo"
+    },
+    {
+      "name": "Apple Computer Trading (Shanghai) Co., Ltd.",
+      "entity_type": "Subsidiary",
+      "aliases": [
+        "Apple Computer Trading (Shanghai) Co., Ltd."
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "subsidiary:apple_computer_trading_shanghai"
+    },
+    {
+      "name": "Apple (UK) Limited",
+      "entity_type": "Subsidiary",
+      "aliases": [
+        "Apple (UK) Limited"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "subsidiary:apple_uk"
+    },
+    {
+      "name": "Bedrock Manufacturing LLC",
+      "entity_type": "Subsidiary",
+      "aliases": [
+        "Bedrock Manufacturing LLC"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "subsidiary:bedrock_manufacturing"
+    },
+    {
+      "name": "ASML Holding N.V.",
+      "entity_type": "Company",
+      "aliases": [
+        "ASML",
+        "ASML Holding",
+        "ASML NV"
+      ],
+      "ticker": "ASML",
+      "cik": "0000937966",
+      "metadata": {
+        "tier": "Lithography Equipment",
+        "sector": "Semiconductor Equipment"
+      },
+      "id": "company:asml"
+    },
+    {
+      "name": "Micron Technology, Inc.",
+      "entity_type": "Company",
+      "aliases": [
+        "Micron",
+        "Micron Technology",
+        "MU"
+      ],
+      "ticker": "MU",
+      "cik": "0000723125",
+      "metadata": {
+        "tier": "Memory & Storage",
+        "sector": "Semiconductors"
+      },
+      "id": "company:mu"
+    },
+    {
+      "name": "Samsung Electronics",
+      "entity_type": "Company",
+      "aliases": [
+        "Samsung Electronics"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "company:samsung_electronics"
+    },
+    {
+      "name": "Carl Zeiss SMT GmbH",
+      "entity_type": "Company",
+      "aliases": [
+        "Carl Zeiss",
+        "Zeiss SMT",
+        "Carl Zeiss SMT"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {
+        "tier": "Optics Supplier",
+        "sector": "Precision Optics"
+      },
+      "id": "company:carl_zeiss"
+    },
+    {
+      "name": "ASML Netherlands B.V.",
+      "entity_type": "Subsidiary",
+      "aliases": [
+        "ASML Netherlands B.V."
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "subsidiary:asml_netherlands"
+    },
+    {
+      "name": "ASML US, LLC",
+      "entity_type": "Subsidiary",
+      "aliases": [
+        "ASML US, LLC"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "subsidiary:asml_us"
+    },
+    {
+      "name": "Cymer LLC",
+      "entity_type": "Subsidiary",
+      "aliases": [
+        "Cymer LLC"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "subsidiary:cymer"
+    },
+    {
+      "name": "ASML Hong Kong Limited",
+      "entity_type": "Subsidiary",
+      "aliases": [
+        "ASML Hong Kong Limited"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "subsidiary:asml_hong_kong"
+    },
+    {
+      "name": "Hong Kong",
+      "entity_type": "Country",
+      "aliases": [
+        "Hong Kong"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "country:hong_kong"
+    },
+    {
+      "name": "ASML Korea Co. Ltd.",
+      "entity_type": "Subsidiary",
+      "aliases": [
+        "ASML Korea Co. Ltd."
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "subsidiary:asml_korea"
+    },
+    {
+      "name": "Hwaseong",
+      "entity_type": "Country",
+      "aliases": [
+        "Hwaseong"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "country:hwaseong"
+    },
+    {
+      "name": "ASML Taiwan Joint Services Co., Ltd.",
+      "entity_type": "Subsidiary",
+      "aliases": [
+        "ASML Taiwan Joint Services Co., Ltd."
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "subsidiary:asml_taiwan_joint_services"
+    },
+    {
+      "name": "Berliner Glas KGaA",
+      "entity_type": "Subsidiary",
+      "aliases": [
+        "Berliner Glas KGaA"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "subsidiary:berliner_glas"
+    },
+    {
+      "name": "Berlin",
+      "entity_type": "Country",
+      "aliases": [
+        "Berlin"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "country:berlin"
+    },
+    {
+      "name": "Xilinx, Inc.",
+      "entity_type": "Subsidiary",
+      "aliases": [
+        "Xilinx, Inc."
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "subsidiary:xilinx"
+    },
+    {
+      "name": "AMD International Sales & Service Ltd",
+      "entity_type": "Subsidiary",
+      "aliases": [
+        "AMD International Sales & Service Ltd"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "subsidiary:amd_international_sales_&_service"
+    },
+    {
+      "name": "Advanced Micro Devices (Singapore) Pte Ltd",
+      "entity_type": "Subsidiary",
+      "aliases": [
+        "Advanced Micro Devices (Singapore) Pte Ltd"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "subsidiary:advanced_micro_devices_singapore"
+    },
+    {
+      "name": "AMD Technology (China) Co., Ltd.",
+      "entity_type": "Subsidiary",
+      "aliases": [
+        "AMD Technology (China) Co., Ltd."
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "subsidiary:amd_technology_china"
+    },
+    {
+      "name": "Beijing",
+      "entity_type": "Country",
+      "aliases": [
+        "Beijing"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "country:beijing"
+    },
+    {
+      "name": "AMD India Private Limited",
+      "entity_type": "Subsidiary",
+      "aliases": [
+        "AMD India Private Limited"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "subsidiary:amd_india"
+    },
+    {
+      "name": "Bengaluru",
+      "entity_type": "Country",
+      "aliases": [
+        "Bengaluru"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "country:bengaluru"
+    },
+    {
+      "name": "Pensando Systems Inc.",
+      "entity_type": "Subsidiary",
+      "aliases": [
+        "Pensando Systems Inc."
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "subsidiary:pensando_systems"
+    },
+    {
+      "name": "Germany",
+      "entity_type": "Region",
+      "aliases": [
+        "Germany"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "region:germany"
+    },
+    {
+      "name": "Mobileye Global Inc.",
+      "entity_type": "Subsidiary",
+      "aliases": [
+        "Mobileye Global Inc."
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "subsidiary:mobileye_global"
+    },
+    {
+      "name": "Intel Ireland Limited",
+      "entity_type": "Subsidiary",
+      "aliases": [
+        "Intel Ireland Limited"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "subsidiary:intel_ireland"
+    },
+    {
+      "name": "Cayman Islands",
+      "entity_type": "Country",
+      "aliases": [
+        "Cayman Islands"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "country:cayman_islands"
+    },
+    {
+      "name": "Intel Semiconductor (Dalian) Ltd.",
+      "entity_type": "Subsidiary",
+      "aliases": [
+        "Intel Semiconductor (Dalian) Ltd."
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "subsidiary:intel_semiconductor_dalian"
+    },
+    {
+      "name": "Intel Electronics Ltd.",
+      "entity_type": "Subsidiary",
+      "aliases": [
+        "Intel Electronics Ltd."
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "subsidiary:intel_electronics"
+    },
+    {
+      "name": "Altera Corporation",
+      "entity_type": "Subsidiary",
+      "aliases": [
+        "Altera Corporation"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "subsidiary:altera"
+    },
+    {
+      "name": "Intel Technology Asia Pte Ltd",
+      "entity_type": "Subsidiary",
+      "aliases": [
+        "Intel Technology Asia Pte Ltd"
+      ],
+      "ticker": null,
+      "cik": null,
+      "metadata": {},
+      "id": "subsidiary:intel_technology_asia"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "SUPPLIER_OF",
+      "evidence_span": "Taiwan Semiconductor Manufacturing Company (TSMC) manufactures our advanced semiconductor wafers, including our Hopper, Ada Lovelace, and Blackwell architectures, utilizing cutting-edge 4N and 3nm process technologies.",
+      "confidence": 0.94,
+      "source_doc_id": "SEC_10K_NVDA_2024",
+      "source_section": "item_1",
+      "chunk_id": "SEC_10K_NVDA_2024_item_1_c000",
+      "filing_date": "2024-02-21",
+      "source": "company:tsm",
+      "target": "company:nvda",
+      "key": "SUPPLIER_OF_SEC_10K_NVDA_2024_SEC_10K_NVDA_2024_item_1_c000"
+    },
+    {
+      "relation": "SUPPLIER_OF",
+      "evidence_span": "and NVIDIA Corporation represent our largest commercial customers by wafer revenue.",
+      "confidence": 0.93,
+      "source_doc_id": "SEC_10K_TSM_2024",
+      "source_section": "item_1",
+      "chunk_id": "SEC_10K_TSM_2024_item_1_c000",
+      "filing_date": "2024-04-10",
+      "source": "company:tsm",
+      "target": "company:nvda",
+      "key": "SUPPLIER_OF_SEC_10K_TSM_2024_SEC_10K_TSM_2024_item_1_c000"
+    },
+    {
+      "relation": "SUPPLIER_OF",
+      "evidence_span": "Our customers include global technology leaders such as Apple Inc., NVIDIA Corporation, Advanced Micro Devices (AMD), Qualcomm Incorporated, Broadcom Inc., and MediaTek Inc.",
+      "confidence": 0.93,
+      "source_doc_id": "SEC_10K_TSM_2024",
+      "source_section": "item_1",
+      "chunk_id": "SEC_10K_TSM_2024_item_1_c000",
+      "filing_date": "2024-04-10",
+      "source": "company:tsm",
+      "target": "company:aapl",
+      "key": "SUPPLIER_OF_SEC_10K_TSM_2024_SEC_10K_TSM_2024_item_1_c000"
+    },
+    {
+      "relation": "SUPPLIER_OF",
+      "evidence_span": "Our customers include global technology leaders such as Apple Inc., NVIDIA Corporation, Advanced Micro Devices (AMD), Qualcomm Incorporated, Broadcom Inc., and MediaTek Inc.",
+      "confidence": 0.93,
+      "source_doc_id": "SEC_10K_TSM_2024",
+      "source_section": "item_1",
+      "chunk_id": "SEC_10K_TSM_2024_item_1_c000",
+      "filing_date": "2024-04-10",
+      "source": "company:tsm",
+      "target": "company:amd",
+      "key": "SUPPLIER_OF_SEC_10K_TSM_2024_SEC_10K_TSM_2024_item_1_c000"
+    },
+    {
+      "relation": "SUPPLIER_OF",
+      "evidence_span": "Our customers include global technology leaders such as Apple Inc., NVIDIA Corporation, Advanced Micro Devices (AMD), Qualcomm Incorporated, Broadcom Inc., and MediaTek Inc.",
+      "confidence": 0.93,
+      "source_doc_id": "SEC_10K_TSM_2024",
+      "source_section": "item_1",
+      "chunk_id": "SEC_10K_TSM_2024_item_1_c000",
+      "filing_date": "2024-04-10",
+      "source": "company:tsm",
+      "target": "company:qcom",
+      "key": "SUPPLIER_OF_SEC_10K_TSM_2024_SEC_10K_TSM_2024_item_1_c000"
+    },
+    {
+      "relation": "SUPPLIER_OF",
+      "evidence_span": "Our customers include global technology leaders such as Apple Inc., NVIDIA Corporation, Advanced Micro Devices (AMD), Qualcomm Incorporated, Broadcom Inc., and MediaTek Inc.",
+      "confidence": 0.93,
+      "source_doc_id": "SEC_10K_TSM_2024",
+      "source_section": "item_1",
+      "chunk_id": "SEC_10K_TSM_2024_item_1_c000",
+      "filing_date": "2024-04-10",
+      "source": "company:tsm",
+      "target": "company:broadcom",
+      "key": "SUPPLIER_OF_SEC_10K_TSM_2024_SEC_10K_TSM_2024_item_1_c000"
+    },
+    {
+      "relation": "OPERATES_IN",
+      "evidence_span": "The majority of our primary wafer fabrication facilities (GigaFabs) are located in Taiwan, specifically in the Hsinchu Science Park, Central Taiwan Science Park in Taichung, and Southern Taiwan Science Park in Tainan.",
+      "confidence": 0.88,
+      "source_doc_id": "SEC_10K_TSM_2024",
+      "source_section": "item_1a",
+      "chunk_id": "SEC_10K_TSM_2024_item_1a_c000",
+      "filing_date": "2024-04-10",
+      "source": "company:tsm",
+      "target": "region:taiwan",
+      "key": "OPERATES_IN_SEC_10K_TSM_2024_SEC_10K_TSM_2024_item_1a_c000"
+    },
+    {
+      "relation": "EXPOSED_TO",
+      "evidence_span": "Taiwan is susceptible to natural disasters including earthquakes, typhoons, and periodic regional water and electrical power shortages.",
+      "confidence": 0.85,
+      "source_doc_id": "SEC_10K_TSM_2024",
+      "source_section": "item_1a",
+      "chunk_id": "SEC_10K_TSM_2024_item_1a_c000",
+      "filing_date": "2024-04-10",
+      "source": "company:tsm",
+      "target": "risk:natural_disaster",
+      "key": "EXPOSED_TO_SEC_10K_TSM_2024_SEC_10K_TSM_2024_item_1a_c000"
+    },
+    {
+      "relation": "EXPOSED_TO",
+      "evidence_span": "Furthermore, cross-strait geopolitical tensions between Taiwan and the People's Republic of China represent a continuing operational risk.",
+      "confidence": 0.85,
+      "source_doc_id": "SEC_10K_TSM_2024",
+      "source_section": "item_1a",
+      "chunk_id": "SEC_10K_TSM_2024_item_1a_c000",
+      "filing_date": "2024-04-10",
+      "source": "company:tsm",
+      "target": "risk:taiwan_geopolitical",
+      "key": "EXPOSED_TO_SEC_10K_TSM_2024_SEC_10K_TSM_2024_item_1a_c000"
+    },
+    {
+      "relation": "EXPOSED_TO",
+      "evidence_span": "We are also exposed to export restrictions imposed by international governments that limit our ability to fabricate certain advanced microprocessors for restricted entities in China.",
+      "confidence": 0.85,
+      "source_doc_id": "SEC_10K_TSM_2024",
+      "source_section": "item_1a",
+      "chunk_id": "SEC_10K_TSM_2024_item_1a_c000",
+      "filing_date": "2024-04-10",
+      "source": "company:tsm",
+      "target": "risk:us_export_controls",
+      "key": "EXPOSED_TO_SEC_10K_TSM_2024_SEC_10K_TSM_2024_item_1a_c000"
+    },
+    {
+      "relation": "CUSTOMER_OF",
+      "evidence_span": "Our largest customers are leading semiconductor foundries and memory manufacturers, including TSMC, Intel Corporation, Samsung Electronics, and Micron Technology.",
+      "confidence": 0.93,
+      "source_doc_id": "SEC_10K_ASML_2024",
+      "source_section": "item_1",
+      "chunk_id": "SEC_10K_ASML_2024_item_1_c000",
+      "filing_date": "2024-02-28",
+      "source": "company:tsm",
+      "target": "company:asml",
+      "key": "CUSTOMER_OF_SEC_10K_ASML_2024_SEC_10K_ASML_2024_item_1_c000"
+    },
+    {
+      "relation": "SUPPLIER_OF",
+      "evidence_span": "We also selectively outsource wafer production for specific tiles (such as Arrow Lake and Lunar Lake compute tiles) to TSMC.",
+      "confidence": 0.94,
+      "source_doc_id": "SEC_10K_INTC_2024",
+      "source_section": "item_1",
+      "chunk_id": "SEC_10K_INTC_2024_item_1_c000",
+      "filing_date": "2024-01-26",
+      "source": "company:tsm",
+      "target": "company:intc",
+      "key": "SUPPLIER_OF_SEC_10K_INTC_2024_SEC_10K_INTC_2024_item_1_c000"
+    },
+    {
+      "relation": "SUPPLIER_OF",
+      "evidence_span": "Our major customers include hyperscale cloud providers, server original equipment manufacturers (OEMs), and enterprises such as Microsoft Corporation, Amazon Web Services, Alphabet Inc., and Meta Platforms.",
+      "confidence": 0.93,
+      "source_doc_id": "SEC_10K_NVDA_2024",
+      "source_section": "item_1",
+      "chunk_id": "SEC_10K_NVDA_2024_item_1_c001",
+      "filing_date": "2024-02-21",
+      "source": "company:nvda",
+      "target": "company:microsoft",
+      "key": "SUPPLIER_OF_SEC_10K_NVDA_2024_SEC_10K_NVDA_2024_item_1_c001"
+    },
+    {
+      "relation": "SUPPLIER_OF",
+      "evidence_span": "Our major customers include hyperscale cloud providers, server original equipment manufacturers (OEMs), and enterprises such as Microsoft Corporation, Amazon Web Services, Alphabet Inc., and Meta Platforms.",
+      "confidence": 0.93,
+      "source_doc_id": "SEC_10K_NVDA_2024",
+      "source_section": "item_1",
+      "chunk_id": "SEC_10K_NVDA_2024_item_1_c001",
+      "filing_date": "2024-02-21",
+      "source": "company:nvda",
+      "target": "company:amazon",
+      "key": "SUPPLIER_OF_SEC_10K_NVDA_2024_SEC_10K_NVDA_2024_item_1_c001"
+    },
+    {
+      "relation": "SUPPLIER_OF",
+      "evidence_span": "Our major customers include hyperscale cloud providers, server original equipment manufacturers (OEMs), and enterprises such as Microsoft Corporation, Amazon Web Services, Alphabet Inc., and Meta Platforms.",
+      "confidence": 0.93,
+      "source_doc_id": "SEC_10K_NVDA_2024",
+      "source_section": "item_1",
+      "chunk_id": "SEC_10K_NVDA_2024_item_1_c001",
+      "filing_date": "2024-02-21",
+      "source": "company:nvda",
+      "target": "company:alphabet",
+      "key": "SUPPLIER_OF_SEC_10K_NVDA_2024_SEC_10K_NVDA_2024_item_1_c001"
+    },
+    {
+      "relation": "SUPPLIER_OF",
+      "evidence_span": "Our major customers include hyperscale cloud providers, server original equipment manufacturers (OEMs), and enterprises such as Microsoft Corporation, Amazon Web Services, Alphabet Inc., and Meta Platforms.",
+      "confidence": 0.93,
+      "source_doc_id": "SEC_10K_NVDA_2024",
+      "source_section": "item_1",
+      "chunk_id": "SEC_10K_NVDA_2024_item_1_c001",
+      "filing_date": "2024-02-21",
+      "source": "company:nvda",
+      "target": "company:meta",
+      "key": "SUPPLIER_OF_SEC_10K_NVDA_2024_SEC_10K_NVDA_2024_item_1_c001"
+    },
+    {
+      "relation": "COMPETITOR_OF",
+      "evidence_span": "We compete with Advanced Micro Devices (AMD) in data center GPUs and gaming graphics, and with Intel Corporation in server processors and accelerator architectures.",
+      "confidence": 0.9,
+      "source_doc_id": "SEC_10K_NVDA_2024",
+      "source_section": "item_1",
+      "chunk_id": "SEC_10K_NVDA_2024_item_1_c001",
+      "filing_date": "2024-02-21",
+      "source": "company:nvda",
+      "target": "company:amd",
+      "key": "COMPETITOR_OF_SEC_10K_NVDA_2024_SEC_10K_NVDA_2024_item_1_c001"
+    },
+    {
+      "relation": "COMPETITOR_OF",
+      "evidence_span": "We compete with Advanced Micro Devices (AMD) in data center GPUs and gaming graphics, and with Intel Corporation in server processors and accelerator architectures.",
+      "confidence": 0.9,
+      "source_doc_id": "SEC_10K_NVDA_2024",
+      "source_section": "item_1",
+      "chunk_id": "SEC_10K_NVDA_2024_item_1_c001",
+      "filing_date": "2024-02-21",
+      "source": "company:nvda",
+      "target": "company:intc",
+      "key": "COMPETITOR_OF_SEC_10K_NVDA_2024_SEC_10K_NVDA_2024_item_1_c001"
+    },
+    {
+      "relation": "EXPOSED_TO",
+      "evidence_span": "A disruption in foundry manufacturing, whether due to capacity constraints, equipment breakdowns, power outages, seismic events, or geopolitical tensions in Taiwan, would materially harm our business and financial results.",
+      "confidence": 0.85,
+      "source_doc_id": "SEC_10K_NVDA_2024",
+      "source_section": "item_1a",
+      "chunk_id": "SEC_10K_NVDA_2024_item_1a_c000",
+      "filing_date": "2024-02-21",
+      "source": "company:nvda",
+      "target": "risk:natural_disaster",
+      "key": "EXPOSED_TO_SEC_10K_NVDA_2024_SEC_10K_NVDA_2024_item_1a_c000"
+    },
+    {
+      "relation": "EXPOSED_TO",
+      "evidence_span": "A disruption in foundry manufacturing, whether due to capacity constraints, equipment breakdowns, power outages, seismic events, or geopolitical tensions in Taiwan, would materially harm our business and financial results.",
+      "confidence": 0.85,
+      "source_doc_id": "SEC_10K_NVDA_2024",
+      "source_section": "item_1a",
+      "chunk_id": "SEC_10K_NVDA_2024_item_1a_c000",
+      "filing_date": "2024-02-21",
+      "source": "company:nvda",
+      "target": "risk:taiwan_geopolitical",
+      "key": "EXPOSED_TO_SEC_10K_NVDA_2024_SEC_10K_NVDA_2024_item_1a_c000"
+    },
+    {
+      "relation": "EXPOSED_TO",
+      "evidence_span": "Capacity shortages in advanced packaging can limit our ability to meet surging market demand.",
+      "confidence": 0.85,
+      "source_doc_id": "SEC_10K_NVDA_2024",
+      "source_section": "item_1a",
+      "chunk_id": "SEC_10K_NVDA_2024_item_1a_c000",
+      "filing_date": "2024-02-21",
+      "source": "company:nvda",
+      "target": "risk:cowos_packaging",
+      "key": "EXPOSED_TO_SEC_10K_NVDA_2024_SEC_10K_NVDA_2024_item_1a_c000"
+    },
+    {
+      "relation": "EXPOSED_TO",
+      "evidence_span": "We are exposed to risks from international trade policies and export control regulations administered by the U.S.",
+      "confidence": 0.85,
+      "source_doc_id": "SEC_10K_NVDA_2024",
+      "source_section": "item_1a",
+      "chunk_id": "SEC_10K_NVDA_2024_item_1a_c000",
+      "filing_date": "2024-02-21",
+      "source": "company:nvda",
+      "target": "risk:us_export_controls",
+      "key": "EXPOSED_TO_SEC_10K_NVDA_2024_SEC_10K_NVDA_2024_item_1a_c000"
+    },
+    {
+      "relation": "EXPOSED_TO",
+      "evidence_span": "Furthermore, our supply chain is exposed to raw material constraints, including rare gases like neon, semiconductor grade silicon, and substrate materials.",
+      "confidence": 0.85,
+      "source_doc_id": "SEC_10K_NVDA_2024",
+      "source_section": "item_1a",
+      "chunk_id": "SEC_10K_NVDA_2024_item_1a_c001",
+      "filing_date": "2024-02-21",
+      "source": "company:nvda",
+      "target": "commodity:neon_gas_supply_bottleneck",
+      "key": "EXPOSED_TO_SEC_10K_NVDA_2024_SEC_10K_NVDA_2024_item_1a_c001"
+    },
+    {
+      "relation": "EXPOSED_TO",
+      "evidence_span": "Furthermore, our supply chain is exposed to raw material constraints, including rare gases like neon, semiconductor grade silicon, and substrate materials.",
+      "confidence": 0.85,
+      "source_doc_id": "SEC_10K_NVDA_2024",
+      "source_section": "item_1a",
+      "chunk_id": "SEC_10K_NVDA_2024_item_1a_c001",
+      "filing_date": "2024-02-21",
+      "source": "company:nvda",
+      "target": "commodity:silicon_wafer_shortage",
+      "key": "EXPOSED_TO_SEC_10K_NVDA_2024_SEC_10K_NVDA_2024_item_1a_c001"
+    },
+    {
+      "relation": "CUSTOMER_OF",
+      "evidence_span": "and NVIDIA Corporation represent our largest commercial customers by wafer revenue.",
+      "confidence": 0.93,
+      "source_doc_id": "SEC_10K_TSM_2024",
+      "source_section": "item_1",
+      "chunk_id": "SEC_10K_TSM_2024_item_1_c000",
+      "filing_date": "2024-04-10",
+      "source": "company:nvda",
+      "target": "company:tsm",
+      "key": "CUSTOMER_OF_SEC_10K_TSM_2024_SEC_10K_TSM_2024_item_1_c000"
+    },
+    {
+      "relation": "CUSTOMER_OF",
+      "evidence_span": "Our major customers include hyperscale cloud providers, server original equipment manufacturers (OEMs), and enterprises such as Microsoft Corporation, Amazon Web Services, Alphabet Inc., and Meta Platforms.",
+      "confidence": 0.93,
+      "source_doc_id": "SEC_10K_NVDA_2024",
+      "source_section": "item_1",
+      "chunk_id": "SEC_10K_NVDA_2024_item_1_c001",
+      "filing_date": "2024-02-21",
+      "source": "company:microsoft",
+      "target": "company:nvda",
+      "key": "CUSTOMER_OF_SEC_10K_NVDA_2024_SEC_10K_NVDA_2024_item_1_c001"
+    },
+    {
+      "relation": "CUSTOMER_OF",
+      "evidence_span": "Our major customers include hyperscale cloud providers, server original equipment manufacturers (OEMs), and enterprises such as Microsoft Corporation, Amazon Web Services, Alphabet Inc., and Meta Platforms.",
+      "confidence": 0.93,
+      "source_doc_id": "SEC_10K_NVDA_2024",
+      "source_section": "item_1",
+      "chunk_id": "SEC_10K_NVDA_2024_item_1_c001",
+      "filing_date": "2024-02-21",
+      "source": "company:amazon",
+      "target": "company:nvda",
+      "key": "CUSTOMER_OF_SEC_10K_NVDA_2024_SEC_10K_NVDA_2024_item_1_c001"
+    },
+    {
+      "relation": "CUSTOMER_OF",
+      "evidence_span": "Our major customers include hyperscale cloud providers, server original equipment manufacturers (OEMs), and enterprises such as Microsoft Corporation, Amazon Web Services, Alphabet Inc., and Meta Platforms.",
+      "confidence": 0.93,
+      "source_doc_id": "SEC_10K_NVDA_2024",
+      "source_section": "item_1",
+      "chunk_id": "SEC_10K_NVDA_2024_item_1_c001",
+      "filing_date": "2024-02-21",
+      "source": "company:alphabet",
+      "target": "company:nvda",
+      "key": "CUSTOMER_OF_SEC_10K_NVDA_2024_SEC_10K_NVDA_2024_item_1_c001"
+    },
+    {
+      "relation": "CUSTOMER_OF",
+      "evidence_span": "Our major customers include hyperscale cloud providers, server original equipment manufacturers (OEMs), and enterprises such as Microsoft Corporation, Amazon Web Services, Alphabet Inc., and Meta Platforms.",
+      "confidence": 0.93,
+      "source_doc_id": "SEC_10K_NVDA_2024",
+      "source_section": "item_1",
+      "chunk_id": "SEC_10K_NVDA_2024_item_1_c001",
+      "filing_date": "2024-02-21",
+      "source": "company:meta",
+      "target": "company:nvda",
+      "key": "CUSTOMER_OF_SEC_10K_NVDA_2024_SEC_10K_NVDA_2024_item_1_c001"
+    },
+    {
+      "relation": "CUSTOMER_OF",
+      "evidence_span": "Our customers include global technology leaders such as Apple Inc., NVIDIA Corporation, Advanced Micro Devices (AMD), Qualcomm Incorporated, Broadcom Inc., and MediaTek Inc.",
+      "confidence": 0.93,
+      "source_doc_id": "SEC_10K_TSM_2024",
+      "source_section": "item_1",
+      "chunk_id": "SEC_10K_TSM_2024_item_1_c000",
+      "filing_date": "2024-04-10",
+      "source": "company:amd",
+      "target": "company:tsm",
+      "key": "CUSTOMER_OF_SEC_10K_TSM_2024_SEC_10K_TSM_2024_item_1_c000"
+    },
+    {
+      "relation": "COMPETITOR_OF",
+      "evidence_span": "We compete directly with Intel Corporation in CPUs and with NVIDIA Corporation in GPUs and AI accelerators.",
+      "confidence": 0.9,
+      "source_doc_id": "SEC_10K_AMD_2024",
+      "source_section": "item_1",
+      "chunk_id": "SEC_10K_AMD_2024_item_1_c000",
+      "filing_date": "2024-02-05",
+      "source": "company:amd",
+      "target": "company:nvda",
+      "key": "COMPETITOR_OF_SEC_10K_AMD_2024_SEC_10K_AMD_2024_item_1_c000"
+    },
+    {
+      "relation": "COMPETITOR_OF",
+      "evidence_span": "We compete directly with Intel Corporation in CPUs and with NVIDIA Corporation in GPUs and AI accelerators.",
+      "confidence": 0.9,
+      "source_doc_id": "SEC_10K_AMD_2024",
+      "source_section": "item_1",
+      "chunk_id": "SEC_10K_AMD_2024_item_1_c000",
+      "filing_date": "2024-02-05",
+      "source": "company:amd",
+      "target": "company:intc",
+      "key": "COMPETITOR_OF_SEC_10K_AMD_2024_SEC_10K_AMD_2024_item_1_c000"
+    },
+    {
+      "relation": "EXPOSED_TO",
+      "evidence_span": "If TSMC experiences operational disruptions, capacity shortages, or supply interruptions in Taiwan due to earthquakes or geopolitical conflicts, our shipments would be severely impacted.",
+      "confidence": 0.85,
+      "source_doc_id": "SEC_10K_AMD_2024",
+      "source_section": "item_1a",
+      "chunk_id": "SEC_10K_AMD_2024_item_1a_c000",
+      "filing_date": "2024-02-05",
+      "source": "company:amd",
+      "target": "risk:natural_disaster",
+      "key": "EXPOSED_TO_SEC_10K_AMD_2024_SEC_10K_AMD_2024_item_1a_c000"
+    },
+    {
+      "relation": "EXPOSED_TO",
+      "evidence_span": "If TSMC experiences operational disruptions, capacity shortages, or supply interruptions in Taiwan due to earthquakes or geopolitical conflicts, our shipments would be severely impacted.",
+      "confidence": 0.85,
+      "source_doc_id": "SEC_10K_AMD_2024",
+      "source_section": "item_1a",
+      "chunk_id": "SEC_10K_AMD_2024_item_1a_c000",
+      "filing_date": "2024-02-05",
+      "source": "company:amd",
+      "target": "risk:taiwan_geopolitical",
+      "key": "EXPOSED_TO_SEC_10K_AMD_2024_SEC_10K_AMD_2024_item_1a_c000"
+    },
+    {
+      "relation": "CUSTOMER_OF",
+      "evidence_span": "Our largest customers are leading semiconductor foundries and memory manufacturers, including TSMC, Intel Corporation, Samsung Electronics, and Micron Technology.",
+      "confidence": 0.93,
+      "source_doc_id": "SEC_10K_ASML_2024",
+      "source_section": "item_1",
+      "chunk_id": "SEC_10K_ASML_2024_item_1_c000",
+      "filing_date": "2024-02-28",
+      "source": "company:intc",
+      "target": "company:asml",
+      "key": "CUSTOMER_OF_SEC_10K_ASML_2024_SEC_10K_ASML_2024_item_1_c000"
+    },
+    {
+      "relation": "SUPPLIER_OF",
+      "evidence_span": "For our manufacturing operations, we purchase advanced lithography scanners from ASML Holding N.V., including being the first customer to receive ASML's High-NA EUV (Twinscan EXE:5000) system.",
+      "confidence": 0.93,
+      "source_doc_id": "SEC_10K_INTC_2024",
+      "source_section": "item_1",
+      "chunk_id": "SEC_10K_INTC_2024_item_1_c000",
+      "filing_date": "2024-01-26",
+      "source": "company:intc",
+      "target": "company:asml",
+      "key": "SUPPLIER_OF_SEC_10K_INTC_2024_SEC_10K_INTC_2024_item_1_c000"
+    },
+    {
+      "relation": "COMPETITOR_OF",
+      "evidence_span": "We compete with AMD in PC and server processors, and with NVIDIA in data center accelerators.",
+      "confidence": 0.9,
+      "source_doc_id": "SEC_10K_INTC_2024",
+      "source_section": "item_1",
+      "chunk_id": "SEC_10K_INTC_2024_item_1_c000",
+      "filing_date": "2024-01-26",
+      "source": "company:intc",
+      "target": "company:nvda",
+      "key": "COMPETITOR_OF_SEC_10K_INTC_2024_SEC_10K_INTC_2024_item_1_c000"
+    },
+    {
+      "relation": "COMPETITOR_OF",
+      "evidence_span": "We compete with AMD in PC and server processors, and with NVIDIA in data center accelerators.",
+      "confidence": 0.9,
+      "source_doc_id": "SEC_10K_INTC_2024",
+      "source_section": "item_1",
+      "chunk_id": "SEC_10K_INTC_2024_item_1_c000",
+      "filing_date": "2024-01-26",
+      "source": "company:intc",
+      "target": "company:amd",
+      "key": "COMPETITOR_OF_SEC_10K_INTC_2024_SEC_10K_INTC_2024_item_1_c000"
+    },
+    {
+      "relation": "OPERATES_IN",
+      "evidence_span": "We operate primary wafer manufacturing fabs in Oregon, Arizona, New Mexico, and internationally in Leixlip, Ireland and Kiryat Gat, Israel.",
+      "confidence": 0.88,
+      "source_doc_id": "SEC_10K_INTC_2024",
+      "source_section": "item_1",
+      "chunk_id": "SEC_10K_INTC_2024_item_1_c000",
+      "filing_date": "2024-01-26",
+      "source": "company:intc",
+      "target": "country:israel",
+      "key": "OPERATES_IN_SEC_10K_INTC_2024_SEC_10K_INTC_2024_item_1_c000"
+    },
+    {
+      "relation": "OPERATES_IN",
+      "evidence_span": "Our operations in Israel (Fab 28 in Kiryat Gat) are exposed to regional security risks and conflict in the Middle East.",
+      "confidence": 0.88,
+      "source_doc_id": "SEC_10K_INTC_2024",
+      "source_section": "item_1a",
+      "chunk_id": "SEC_10K_INTC_2024_item_1a_c000",
+      "filing_date": "2024-01-26",
+      "source": "company:intc",
+      "target": "country:israel",
+      "key": "OPERATES_IN_SEC_10K_INTC_2024_SEC_10K_INTC_2024_item_1a_c000"
+    },
+    {
+      "relation": "OPERATES_IN",
+      "evidence_span": "We operate primary wafer manufacturing fabs in Oregon, Arizona, New Mexico, and internationally in Leixlip, Ireland and Kiryat Gat, Israel.",
+      "confidence": 0.88,
+      "source_doc_id": "SEC_10K_INTC_2024",
+      "source_section": "item_1",
+      "chunk_id": "SEC_10K_INTC_2024_item_1_c000",
+      "filing_date": "2024-01-26",
+      "source": "company:intc",
+      "target": "country:ireland",
+      "key": "OPERATES_IN_SEC_10K_INTC_2024_SEC_10K_INTC_2024_item_1_c000"
+    },
+    {
+      "relation": "OPERATES_IN",
+      "evidence_span": "We are also building new fabs in Magdeburg, Germany, and Columbus, Ohio.",
+      "confidence": 0.88,
+      "source_doc_id": "SEC_10K_INTC_2024",
+      "source_section": "item_1",
+      "chunk_id": "SEC_10K_INTC_2024_item_1_c000",
+      "filing_date": "2024-01-26",
+      "source": "company:intc",
+      "target": "region:germany",
+      "key": "OPERATES_IN_SEC_10K_INTC_2024_SEC_10K_INTC_2024_item_1_c000"
+    },
+    {
+      "relation": "SUBSIDIARY_OF",
+      "evidence_span": "1. Mellanox Technologies, Ltd. - Jurisdiction: Israel",
+      "confidence": 0.98,
+      "source_doc_id": "SEC_10K_NVDA_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_NVDA_2024_exhibit_21_c000",
+      "filing_date": "2024-02-21",
+      "source": "subsidiary:mellanox_technologies",
+      "target": "company:nvda",
+      "key": "SUBSIDIARY_OF_SEC_10K_NVDA_2024_SEC_10K_NVDA_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "OPERATES_IN",
+      "evidence_span": "1. Mellanox Technologies, Ltd. - Jurisdiction: Israel",
+      "confidence": 0.95,
+      "source_doc_id": "SEC_10K_NVDA_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_NVDA_2024_exhibit_21_c000",
+      "filing_date": "2024-02-21",
+      "source": "subsidiary:mellanox_technologies",
+      "target": "country:israel",
+      "key": "OPERATES_IN_SEC_10K_NVDA_2024_SEC_10K_NVDA_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "SUBSIDIARY_OF",
+      "evidence_span": "2. NVIDIA International Holdings B.V. - Jurisdiction: Netherlands",
+      "confidence": 0.98,
+      "source_doc_id": "SEC_10K_NVDA_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_NVDA_2024_exhibit_21_c000",
+      "filing_date": "2024-02-21",
+      "source": "subsidiary:nvidia_international",
+      "target": "company:nvda",
+      "key": "SUBSIDIARY_OF_SEC_10K_NVDA_2024_SEC_10K_NVDA_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "OPERATES_IN",
+      "evidence_span": "2. NVIDIA International Holdings B.V. - Jurisdiction: Netherlands",
+      "confidence": 0.95,
+      "source_doc_id": "SEC_10K_NVDA_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_NVDA_2024_exhibit_21_c000",
+      "filing_date": "2024-02-21",
+      "source": "subsidiary:nvidia_international",
+      "target": "region:netherlands",
+      "key": "OPERATES_IN_SEC_10K_NVDA_2024_SEC_10K_NVDA_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "SUBSIDIARY_OF",
+      "evidence_span": "3. NVIDIA Singapore PTE. LTD. - Jurisdiction: Singapore",
+      "confidence": 0.98,
+      "source_doc_id": "SEC_10K_NVDA_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_NVDA_2024_exhibit_21_c000",
+      "filing_date": "2024-02-21",
+      "source": "subsidiary:nvidia_singapore",
+      "target": "company:nvda",
+      "key": "SUBSIDIARY_OF_SEC_10K_NVDA_2024_SEC_10K_NVDA_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "OPERATES_IN",
+      "evidence_span": "3. NVIDIA Singapore PTE. LTD. - Jurisdiction: Singapore",
+      "confidence": 0.95,
+      "source_doc_id": "SEC_10K_NVDA_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_NVDA_2024_exhibit_21_c000",
+      "filing_date": "2024-02-21",
+      "source": "subsidiary:nvidia_singapore",
+      "target": "country:singapore",
+      "key": "OPERATES_IN_SEC_10K_NVDA_2024_SEC_10K_NVDA_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "SUBSIDIARY_OF",
+      "evidence_span": "4. NVIDIA Development UK Ltd - Jurisdiction: United Kingdom",
+      "confidence": 0.98,
+      "source_doc_id": "SEC_10K_NVDA_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_NVDA_2024_exhibit_21_c000",
+      "filing_date": "2024-02-21",
+      "source": "subsidiary:nvidia_development_uk",
+      "target": "company:nvda",
+      "key": "SUBSIDIARY_OF_SEC_10K_NVDA_2024_SEC_10K_NVDA_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "OPERATES_IN",
+      "evidence_span": "4. NVIDIA Development UK Ltd - Jurisdiction: United Kingdom",
+      "confidence": 0.95,
+      "source_doc_id": "SEC_10K_NVDA_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_NVDA_2024_exhibit_21_c000",
+      "filing_date": "2024-02-21",
+      "source": "subsidiary:nvidia_development_uk",
+      "target": "country:united_kingdom",
+      "key": "OPERATES_IN_SEC_10K_NVDA_2024_SEC_10K_NVDA_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "SUBSIDIARY_OF",
+      "evidence_span": "5. NVIDIA Semiconductor Technology (Shanghai) Co., Ltd. - Jurisdiction: China",
+      "confidence": 0.98,
+      "source_doc_id": "SEC_10K_NVDA_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_NVDA_2024_exhibit_21_c000",
+      "filing_date": "2024-02-21",
+      "source": "subsidiary:nvidia_semiconductor_technology_shanghai",
+      "target": "company:nvda",
+      "key": "SUBSIDIARY_OF_SEC_10K_NVDA_2024_SEC_10K_NVDA_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "OPERATES_IN",
+      "evidence_span": "5. NVIDIA Semiconductor Technology (Shanghai) Co., Ltd. - Jurisdiction: China",
+      "confidence": 0.95,
+      "source_doc_id": "SEC_10K_NVDA_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_NVDA_2024_exhibit_21_c000",
+      "filing_date": "2024-02-21",
+      "source": "subsidiary:nvidia_semiconductor_technology_shanghai",
+      "target": "region:china",
+      "key": "OPERATES_IN_SEC_10K_NVDA_2024_SEC_10K_NVDA_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "SUBSIDIARY_OF",
+      "evidence_span": "6. NVIDIA Graphics Private Limited - Jurisdiction: India",
+      "confidence": 0.98,
+      "source_doc_id": "SEC_10K_NVDA_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_NVDA_2024_exhibit_21_c000",
+      "filing_date": "2024-02-21",
+      "source": "subsidiary:nvidia_graphics",
+      "target": "company:nvda",
+      "key": "SUBSIDIARY_OF_SEC_10K_NVDA_2024_SEC_10K_NVDA_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "OPERATES_IN",
+      "evidence_span": "6. NVIDIA Graphics Private Limited - Jurisdiction: India",
+      "confidence": 0.95,
+      "source_doc_id": "SEC_10K_NVDA_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_NVDA_2024_exhibit_21_c000",
+      "filing_date": "2024-02-21",
+      "source": "subsidiary:nvidia_graphics",
+      "target": "country:india",
+      "key": "OPERATES_IN_SEC_10K_NVDA_2024_SEC_10K_NVDA_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "SUBSIDIARY_OF",
+      "evidence_span": "7. Cumulus Networks, Inc. - Jurisdiction: Delaware, United States",
+      "confidence": 0.98,
+      "source_doc_id": "SEC_10K_NVDA_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_NVDA_2024_exhibit_21_c000",
+      "filing_date": "2024-02-21",
+      "source": "subsidiary:cumulus_networks",
+      "target": "company:nvda",
+      "key": "SUBSIDIARY_OF_SEC_10K_NVDA_2024_SEC_10K_NVDA_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "OPERATES_IN",
+      "evidence_span": "7. Cumulus Networks, Inc. - Jurisdiction: Delaware, United States",
+      "confidence": 0.95,
+      "source_doc_id": "SEC_10K_NVDA_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_NVDA_2024_exhibit_21_c000",
+      "filing_date": "2024-02-21",
+      "source": "subsidiary:cumulus_networks",
+      "target": "country:delaware",
+      "key": "OPERATES_IN_SEC_10K_NVDA_2024_SEC_10K_NVDA_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "CUSTOMER_OF",
+      "evidence_span": "Our customers include global technology leaders such as Apple Inc., NVIDIA Corporation, Advanced Micro Devices (AMD), Qualcomm Incorporated, Broadcom Inc., and MediaTek Inc.",
+      "confidence": 0.93,
+      "source_doc_id": "SEC_10K_TSM_2024",
+      "source_section": "item_1",
+      "chunk_id": "SEC_10K_TSM_2024_item_1_c000",
+      "filing_date": "2024-04-10",
+      "source": "company:aapl",
+      "target": "company:tsm",
+      "key": "CUSTOMER_OF_SEC_10K_TSM_2024_SEC_10K_TSM_2024_item_1_c000"
+    },
+    {
+      "relation": "OPERATES_IN",
+      "evidence_span": "(Foxconn) is our primary assembly partner for iPhone products, operating major manufacturing campuses in Zhengzhou and Shenzhen, China, as well as facilities in Tamil Nadu, India.",
+      "confidence": 0.88,
+      "source_doc_id": "SEC_10K_AAPL_2024",
+      "source_section": "item_1",
+      "chunk_id": "SEC_10K_AAPL_2024_item_1_c000",
+      "filing_date": "2024-11-01",
+      "source": "company:aapl",
+      "target": "region:china",
+      "key": "OPERATES_IN_SEC_10K_AAPL_2024_SEC_10K_AAPL_2024_item_1_c000"
+    },
+    {
+      "relation": "OPERATES_IN",
+      "evidence_span": "our primary assembly partner for iPhone products, operating major manufacturing campuses in Zhengzhou and Shenzhen, China, as well as facilities in Tamil Nadu, India.",
+      "confidence": 0.88,
+      "source_doc_id": "SEC_10K_AAPL_2024",
+      "source_section": "item_1",
+      "chunk_id": "SEC_10K_AAPL_2024_item_1_c001",
+      "filing_date": "2024-11-01",
+      "source": "company:aapl",
+      "target": "region:china",
+      "key": "OPERATES_IN_SEC_10K_AAPL_2024_SEC_10K_AAPL_2024_item_1_c001"
+    },
+    {
+      "relation": "OPERATES_IN",
+      "evidence_span": "(Foxconn) is our primary assembly partner for iPhone products, operating major manufacturing campuses in Zhengzhou and Shenzhen, China, as well as facilities in Tamil Nadu, India.",
+      "confidence": 0.88,
+      "source_doc_id": "SEC_10K_AAPL_2024",
+      "source_section": "item_1",
+      "chunk_id": "SEC_10K_AAPL_2024_item_1_c000",
+      "filing_date": "2024-11-01",
+      "source": "company:aapl",
+      "target": "country:india",
+      "key": "OPERATES_IN_SEC_10K_AAPL_2024_SEC_10K_AAPL_2024_item_1_c000"
+    },
+    {
+      "relation": "OPERATES_IN",
+      "evidence_span": "our primary assembly partner for iPhone products, operating major manufacturing campuses in Zhengzhou and Shenzhen, China, as well as facilities in Tamil Nadu, India.",
+      "confidence": 0.88,
+      "source_doc_id": "SEC_10K_AAPL_2024",
+      "source_section": "item_1",
+      "chunk_id": "SEC_10K_AAPL_2024_item_1_c001",
+      "filing_date": "2024-11-01",
+      "source": "company:aapl",
+      "target": "country:india",
+      "key": "OPERATES_IN_SEC_10K_AAPL_2024_SEC_10K_AAPL_2024_item_1_c001"
+    },
+    {
+      "relation": "EXPOSED_TO",
+      "evidence_span": "Disruptions in these regions resulting from labor disputes, factory shutdowns, geopolitical tensions, trade disputes, or natural hazards such as earthquakes in Taiwan could delay product launches and reduce revenues.",
+      "confidence": 0.85,
+      "source_doc_id": "SEC_10K_AAPL_2024",
+      "source_section": "item_1a",
+      "chunk_id": "SEC_10K_AAPL_2024_item_1a_c000",
+      "filing_date": "2024-11-01",
+      "source": "company:aapl",
+      "target": "risk:natural_disaster",
+      "key": "EXPOSED_TO_SEC_10K_AAPL_2024_SEC_10K_AAPL_2024_item_1a_c000"
+    },
+    {
+      "relation": "EXPOSED_TO",
+      "evidence_span": "Disruptions in these regions resulting from labor disputes, factory shutdowns, geopolitical tensions, trade disputes, or natural hazards such as earthquakes in Taiwan could delay product launches and reduce revenues.",
+      "confidence": 0.85,
+      "source_doc_id": "SEC_10K_AAPL_2024",
+      "source_section": "item_1a",
+      "chunk_id": "SEC_10K_AAPL_2024_item_1a_c000",
+      "filing_date": "2024-11-01",
+      "source": "company:aapl",
+      "target": "risk:taiwan_geopolitical",
+      "key": "EXPOSED_TO_SEC_10K_AAPL_2024_SEC_10K_AAPL_2024_item_1a_c000"
+    },
+    {
+      "relation": "EXPOSED_TO",
+      "evidence_span": "We are exposed to trade policies and tariff measures between the United States and China.",
+      "confidence": 0.85,
+      "source_doc_id": "SEC_10K_AAPL_2024",
+      "source_section": "item_1a",
+      "chunk_id": "SEC_10K_AAPL_2024_item_1a_c000",
+      "filing_date": "2024-11-01",
+      "source": "company:aapl",
+      "target": "risk:us_export_controls",
+      "key": "EXPOSED_TO_SEC_10K_AAPL_2024_SEC_10K_AAPL_2024_item_1a_c000"
+    },
+    {
+      "relation": "OPERATES_IN",
+      "evidence_span": "Apple Operations International Ltd - Jurisdiction: Ireland\n2.",
+      "confidence": 0.88,
+      "source_doc_id": "SEC_10K_AAPL_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_AAPL_2024_exhibit_21_c000",
+      "filing_date": "2024-11-01",
+      "source": "company:aapl",
+      "target": "country:ireland",
+      "key": "OPERATES_IN_SEC_10K_AAPL_2024_SEC_10K_AAPL_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "CUSTOMER_OF",
+      "evidence_span": "Our customers include global technology leaders such as Apple Inc., NVIDIA Corporation, Advanced Micro Devices (AMD), Qualcomm Incorporated, Broadcom Inc., and MediaTek Inc.",
+      "confidence": 0.93,
+      "source_doc_id": "SEC_10K_TSM_2024",
+      "source_section": "item_1",
+      "chunk_id": "SEC_10K_TSM_2024_item_1_c000",
+      "filing_date": "2024-04-10",
+      "source": "company:qcom",
+      "target": "company:tsm",
+      "key": "CUSTOMER_OF_SEC_10K_TSM_2024_SEC_10K_TSM_2024_item_1_c000"
+    },
+    {
+      "relation": "CUSTOMER_OF",
+      "evidence_span": "Our customers include global technology leaders such as Apple Inc., NVIDIA Corporation, Advanced Micro Devices (AMD), Qualcomm Incorporated, Broadcom Inc., and MediaTek Inc.",
+      "confidence": 0.93,
+      "source_doc_id": "SEC_10K_TSM_2024",
+      "source_section": "item_1",
+      "chunk_id": "SEC_10K_TSM_2024_item_1_c000",
+      "filing_date": "2024-04-10",
+      "source": "company:broadcom",
+      "target": "company:tsm",
+      "key": "CUSTOMER_OF_SEC_10K_TSM_2024_SEC_10K_TSM_2024_item_1_c000"
+    },
+    {
+      "relation": "SUBSIDIARY_OF",
+      "evidence_span": "1. TSMC North America - Jurisdiction: California, United States",
+      "confidence": 0.98,
+      "source_doc_id": "SEC_10K_TSM_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_TSM_2024_exhibit_21_c000",
+      "filing_date": "2024-04-10",
+      "source": "subsidiary:tsmc_north_america",
+      "target": "company:tsm",
+      "key": "SUBSIDIARY_OF_SEC_10K_TSM_2024_SEC_10K_TSM_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "OPERATES_IN",
+      "evidence_span": "1. TSMC North America - Jurisdiction: California, United States",
+      "confidence": 0.95,
+      "source_doc_id": "SEC_10K_TSM_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_TSM_2024_exhibit_21_c000",
+      "filing_date": "2024-04-10",
+      "source": "subsidiary:tsmc_north_america",
+      "target": "country:california",
+      "key": "OPERATES_IN_SEC_10K_TSM_2024_SEC_10K_TSM_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "SUBSIDIARY_OF",
+      "evidence_span": "2. TSMC Arizona Corporation - Jurisdiction: Arizona, United States",
+      "confidence": 0.98,
+      "source_doc_id": "SEC_10K_TSM_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_TSM_2024_exhibit_21_c000",
+      "filing_date": "2024-04-10",
+      "source": "subsidiary:tsmc_arizona",
+      "target": "company:tsm",
+      "key": "SUBSIDIARY_OF_SEC_10K_TSM_2024_SEC_10K_TSM_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "OPERATES_IN",
+      "evidence_span": "2. TSMC Arizona Corporation - Jurisdiction: Arizona, United States",
+      "confidence": 0.95,
+      "source_doc_id": "SEC_10K_TSM_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_TSM_2024_exhibit_21_c000",
+      "filing_date": "2024-04-10",
+      "source": "subsidiary:tsmc_arizona",
+      "target": "country:arizona",
+      "key": "OPERATES_IN_SEC_10K_TSM_2024_SEC_10K_TSM_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "SUBSIDIARY_OF",
+      "evidence_span": "3. Japan Advanced Semiconductor Manufacturing, Inc. (JASM) - Jurisdiction: Kumamoto, Japan",
+      "confidence": 0.98,
+      "source_doc_id": "SEC_10K_TSM_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_TSM_2024_exhibit_21_c000",
+      "filing_date": "2024-04-10",
+      "source": "subsidiary:japan_advanced_semiconductor_manufacturing_jasm",
+      "target": "company:tsm",
+      "key": "SUBSIDIARY_OF_SEC_10K_TSM_2024_SEC_10K_TSM_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "OPERATES_IN",
+      "evidence_span": "3. Japan Advanced Semiconductor Manufacturing, Inc. (JASM) - Jurisdiction: Kumamoto, Japan",
+      "confidence": 0.95,
+      "source_doc_id": "SEC_10K_TSM_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_TSM_2024_exhibit_21_c000",
+      "filing_date": "2024-04-10",
+      "source": "subsidiary:japan_advanced_semiconductor_manufacturing_jasm",
+      "target": "country:kumamoto",
+      "key": "OPERATES_IN_SEC_10K_TSM_2024_SEC_10K_TSM_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "SUBSIDIARY_OF",
+      "evidence_span": "4. TSMC Europe B.V. - Jurisdiction: Amsterdam, Netherlands",
+      "confidence": 0.98,
+      "source_doc_id": "SEC_10K_TSM_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_TSM_2024_exhibit_21_c000",
+      "filing_date": "2024-04-10",
+      "source": "subsidiary:tsmc_europe",
+      "target": "company:tsm",
+      "key": "SUBSIDIARY_OF_SEC_10K_TSM_2024_SEC_10K_TSM_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "OPERATES_IN",
+      "evidence_span": "4. TSMC Europe B.V. - Jurisdiction: Amsterdam, Netherlands",
+      "confidence": 0.95,
+      "source_doc_id": "SEC_10K_TSM_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_TSM_2024_exhibit_21_c000",
+      "filing_date": "2024-04-10",
+      "source": "subsidiary:tsmc_europe",
+      "target": "country:amsterdam",
+      "key": "OPERATES_IN_SEC_10K_TSM_2024_SEC_10K_TSM_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "SUBSIDIARY_OF",
+      "evidence_span": "6. TSMC Nanjing Company Limited - Jurisdiction: Nanjing, China",
+      "confidence": 0.98,
+      "source_doc_id": "SEC_10K_TSM_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_TSM_2024_exhibit_21_c000",
+      "filing_date": "2024-04-10",
+      "source": "subsidiary:tsmc_china",
+      "target": "company:tsm",
+      "key": "SUBSIDIARY_OF_SEC_10K_TSM_2024_SEC_10K_TSM_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "OPERATES_IN",
+      "evidence_span": "5. TSMC China Company Limited - Jurisdiction: Shanghai, China",
+      "confidence": 0.95,
+      "source_doc_id": "SEC_10K_TSM_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_TSM_2024_exhibit_21_c000",
+      "filing_date": "2024-04-10",
+      "source": "subsidiary:tsmc_china",
+      "target": "region:china",
+      "key": "OPERATES_IN_SEC_10K_TSM_2024_SEC_10K_TSM_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "OPERATES_IN",
+      "evidence_span": "6. TSMC Nanjing Company Limited - Jurisdiction: Nanjing, China",
+      "confidence": 0.95,
+      "source_doc_id": "SEC_10K_TSM_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_TSM_2024_exhibit_21_c000",
+      "filing_date": "2024-04-10",
+      "source": "subsidiary:tsmc_china",
+      "target": "country:nanjing",
+      "key": "OPERATES_IN_SEC_10K_TSM_2024_SEC_10K_TSM_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "SUBSIDIARY_OF",
+      "evidence_span": "7. European Semiconductor Manufacturing Company (ESMC) GmbH - Jurisdiction: Dresden, Germany",
+      "confidence": 0.98,
+      "source_doc_id": "SEC_10K_TSM_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_TSM_2024_exhibit_21_c000",
+      "filing_date": "2024-04-10",
+      "source": "subsidiary:european_semiconductor_manufacturing_esmc",
+      "target": "company:tsm",
+      "key": "SUBSIDIARY_OF_SEC_10K_TSM_2024_SEC_10K_TSM_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "OPERATES_IN",
+      "evidence_span": "7. European Semiconductor Manufacturing Company (ESMC) GmbH - Jurisdiction: Dresden, Germany",
+      "confidence": 0.95,
+      "source_doc_id": "SEC_10K_TSM_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_TSM_2024_exhibit_21_c000",
+      "filing_date": "2024-04-10",
+      "source": "subsidiary:european_semiconductor_manufacturing_esmc",
+      "target": "country:dresden",
+      "key": "OPERATES_IN_SEC_10K_TSM_2024_SEC_10K_TSM_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "SUBSIDIARY_OF",
+      "evidence_span": "1. Apple Operations International Ltd - Jurisdiction: Ireland",
+      "confidence": 0.98,
+      "source_doc_id": "SEC_10K_AAPL_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_AAPL_2024_exhibit_21_c000",
+      "filing_date": "2024-11-01",
+      "source": "subsidiary:apple_operations_international",
+      "target": "company:aapl",
+      "key": "SUBSIDIARY_OF_SEC_10K_AAPL_2024_SEC_10K_AAPL_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "OPERATES_IN",
+      "evidence_span": "1. Apple Operations International Ltd - Jurisdiction: Ireland",
+      "confidence": 0.95,
+      "source_doc_id": "SEC_10K_AAPL_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_AAPL_2024_exhibit_21_c000",
+      "filing_date": "2024-11-01",
+      "source": "subsidiary:apple_operations_international",
+      "target": "country:ireland",
+      "key": "OPERATES_IN_SEC_10K_AAPL_2024_SEC_10K_AAPL_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "SUBSIDIARY_OF",
+      "evidence_span": "2. Apple Operations Europe Ltd - Jurisdiction: Ireland",
+      "confidence": 0.98,
+      "source_doc_id": "SEC_10K_AAPL_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_AAPL_2024_exhibit_21_c000",
+      "filing_date": "2024-11-01",
+      "source": "subsidiary:apple_operations_europe",
+      "target": "company:aapl",
+      "key": "SUBSIDIARY_OF_SEC_10K_AAPL_2024_SEC_10K_AAPL_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "OPERATES_IN",
+      "evidence_span": "2. Apple Operations Europe Ltd - Jurisdiction: Ireland",
+      "confidence": 0.95,
+      "source_doc_id": "SEC_10K_AAPL_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_AAPL_2024_exhibit_21_c000",
+      "filing_date": "2024-11-01",
+      "source": "subsidiary:apple_operations_europe",
+      "target": "country:ireland",
+      "key": "OPERATES_IN_SEC_10K_AAPL_2024_SEC_10K_AAPL_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "SUBSIDIARY_OF",
+      "evidence_span": "3. Apple Distribution International Ltd - Jurisdiction: Ireland",
+      "confidence": 0.98,
+      "source_doc_id": "SEC_10K_AAPL_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_AAPL_2024_exhibit_21_c000",
+      "filing_date": "2024-11-01",
+      "source": "subsidiary:apple_distribution_international",
+      "target": "company:aapl",
+      "key": "SUBSIDIARY_OF_SEC_10K_AAPL_2024_SEC_10K_AAPL_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "OPERATES_IN",
+      "evidence_span": "3. Apple Distribution International Ltd - Jurisdiction: Ireland",
+      "confidence": 0.95,
+      "source_doc_id": "SEC_10K_AAPL_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_AAPL_2024_exhibit_21_c000",
+      "filing_date": "2024-11-01",
+      "source": "subsidiary:apple_distribution_international",
+      "target": "country:ireland",
+      "key": "OPERATES_IN_SEC_10K_AAPL_2024_SEC_10K_AAPL_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "SUBSIDIARY_OF",
+      "evidence_span": "4. Apple Japan Inc. - Jurisdiction: Tokyo, Japan",
+      "confidence": 0.98,
+      "source_doc_id": "SEC_10K_AAPL_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_AAPL_2024_exhibit_21_c000",
+      "filing_date": "2024-11-01",
+      "source": "subsidiary:apple_japan",
+      "target": "company:aapl",
+      "key": "SUBSIDIARY_OF_SEC_10K_AAPL_2024_SEC_10K_AAPL_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "OPERATES_IN",
+      "evidence_span": "4. Apple Japan Inc. - Jurisdiction: Tokyo, Japan",
+      "confidence": 0.95,
+      "source_doc_id": "SEC_10K_AAPL_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_AAPL_2024_exhibit_21_c000",
+      "filing_date": "2024-11-01",
+      "source": "subsidiary:apple_japan",
+      "target": "country:tokyo",
+      "key": "OPERATES_IN_SEC_10K_AAPL_2024_SEC_10K_AAPL_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "SUBSIDIARY_OF",
+      "evidence_span": "5. Apple Computer Trading (Shanghai) Co., Ltd. - Jurisdiction: Shanghai, China",
+      "confidence": 0.98,
+      "source_doc_id": "SEC_10K_AAPL_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_AAPL_2024_exhibit_21_c000",
+      "filing_date": "2024-11-01",
+      "source": "subsidiary:apple_computer_trading_shanghai",
+      "target": "company:aapl",
+      "key": "SUBSIDIARY_OF_SEC_10K_AAPL_2024_SEC_10K_AAPL_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "OPERATES_IN",
+      "evidence_span": "5. Apple Computer Trading (Shanghai) Co., Ltd. - Jurisdiction: Shanghai, China",
+      "confidence": 0.95,
+      "source_doc_id": "SEC_10K_AAPL_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_AAPL_2024_exhibit_21_c000",
+      "filing_date": "2024-11-01",
+      "source": "subsidiary:apple_computer_trading_shanghai",
+      "target": "region:china",
+      "key": "OPERATES_IN_SEC_10K_AAPL_2024_SEC_10K_AAPL_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "SUBSIDIARY_OF",
+      "evidence_span": "6. Apple (UK) Limited - Jurisdiction: United Kingdom",
+      "confidence": 0.98,
+      "source_doc_id": "SEC_10K_AAPL_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_AAPL_2024_exhibit_21_c000",
+      "filing_date": "2024-11-01",
+      "source": "subsidiary:apple_uk",
+      "target": "company:aapl",
+      "key": "SUBSIDIARY_OF_SEC_10K_AAPL_2024_SEC_10K_AAPL_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "OPERATES_IN",
+      "evidence_span": "6. Apple (UK) Limited - Jurisdiction: United Kingdom",
+      "confidence": 0.95,
+      "source_doc_id": "SEC_10K_AAPL_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_AAPL_2024_exhibit_21_c000",
+      "filing_date": "2024-11-01",
+      "source": "subsidiary:apple_uk",
+      "target": "country:united_kingdom",
+      "key": "OPERATES_IN_SEC_10K_AAPL_2024_SEC_10K_AAPL_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "SUBSIDIARY_OF",
+      "evidence_span": "7. Bedrock Manufacturing LLC - Jurisdiction: Delaware, United States",
+      "confidence": 0.98,
+      "source_doc_id": "SEC_10K_AAPL_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_AAPL_2024_exhibit_21_c000",
+      "filing_date": "2024-11-01",
+      "source": "subsidiary:bedrock_manufacturing",
+      "target": "company:aapl",
+      "key": "SUBSIDIARY_OF_SEC_10K_AAPL_2024_SEC_10K_AAPL_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "OPERATES_IN",
+      "evidence_span": "7. Bedrock Manufacturing LLC - Jurisdiction: Delaware, United States",
+      "confidence": 0.95,
+      "source_doc_id": "SEC_10K_AAPL_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_AAPL_2024_exhibit_21_c000",
+      "filing_date": "2024-11-01",
+      "source": "subsidiary:bedrock_manufacturing",
+      "target": "country:delaware",
+      "key": "OPERATES_IN_SEC_10K_AAPL_2024_SEC_10K_AAPL_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "SUPPLIER_OF",
+      "evidence_span": "Our largest customers are leading semiconductor foundries and memory manufacturers, including TSMC, Intel Corporation, Samsung Electronics, and Micron Technology.",
+      "confidence": 0.93,
+      "source_doc_id": "SEC_10K_ASML_2024",
+      "source_section": "item_1",
+      "chunk_id": "SEC_10K_ASML_2024_item_1_c000",
+      "filing_date": "2024-02-28",
+      "source": "company:asml",
+      "target": "company:tsm",
+      "key": "SUPPLIER_OF_SEC_10K_ASML_2024_SEC_10K_ASML_2024_item_1_c000"
+    },
+    {
+      "relation": "SUPPLIER_OF",
+      "evidence_span": "Our largest customers are leading semiconductor foundries and memory manufacturers, including TSMC, Intel Corporation, Samsung Electronics, and Micron Technology.",
+      "confidence": 0.93,
+      "source_doc_id": "SEC_10K_ASML_2024",
+      "source_section": "item_1",
+      "chunk_id": "SEC_10K_ASML_2024_item_1_c000",
+      "filing_date": "2024-02-28",
+      "source": "company:asml",
+      "target": "company:intc",
+      "key": "SUPPLIER_OF_SEC_10K_ASML_2024_SEC_10K_ASML_2024_item_1_c000"
+    },
+    {
+      "relation": "CUSTOMER_OF",
+      "evidence_span": "For our manufacturing operations, we purchase advanced lithography scanners from ASML Holding N.V., including being the first customer to receive ASML's High-NA EUV (Twinscan EXE:5000) system.",
+      "confidence": 0.93,
+      "source_doc_id": "SEC_10K_INTC_2024",
+      "source_section": "item_1",
+      "chunk_id": "SEC_10K_INTC_2024_item_1_c000",
+      "filing_date": "2024-01-26",
+      "source": "company:asml",
+      "target": "company:intc",
+      "key": "CUSTOMER_OF_SEC_10K_INTC_2024_SEC_10K_INTC_2024_item_1_c000"
+    },
+    {
+      "relation": "SUPPLIER_OF",
+      "evidence_span": "Our largest customers are leading semiconductor foundries and memory manufacturers, including TSMC, Intel Corporation, Samsung Electronics, and Micron Technology.",
+      "confidence": 0.93,
+      "source_doc_id": "SEC_10K_ASML_2024",
+      "source_section": "item_1",
+      "chunk_id": "SEC_10K_ASML_2024_item_1_c000",
+      "filing_date": "2024-02-28",
+      "source": "company:asml",
+      "target": "company:mu",
+      "key": "SUPPLIER_OF_SEC_10K_ASML_2024_SEC_10K_ASML_2024_item_1_c000"
+    },
+    {
+      "relation": "SUPPLIER_OF",
+      "evidence_span": "Our largest customers are leading semiconductor foundries and memory manufacturers, including TSMC, Intel Corporation, Samsung Electronics, and Micron Technology.",
+      "confidence": 0.93,
+      "source_doc_id": "SEC_10K_ASML_2024",
+      "source_section": "item_1",
+      "chunk_id": "SEC_10K_ASML_2024_item_1_c000",
+      "filing_date": "2024-02-28",
+      "source": "company:asml",
+      "target": "company:samsung_electronics",
+      "key": "SUPPLIER_OF_SEC_10K_ASML_2024_SEC_10K_ASML_2024_item_1_c000"
+    },
+    {
+      "relation": "OPERATES_IN",
+      "evidence_span": "We operate main manufacturing and R&D facilities in Veldhoven, Netherlands, alongside facilities in San Diego, California, and Wilton, Connecticut.",
+      "confidence": 0.88,
+      "source_doc_id": "SEC_10K_ASML_2024",
+      "source_section": "item_1",
+      "chunk_id": "SEC_10K_ASML_2024_item_1_c000",
+      "filing_date": "2024-02-28",
+      "source": "company:asml",
+      "target": "region:netherlands",
+      "key": "OPERATES_IN_SEC_10K_ASML_2024_SEC_10K_ASML_2024_item_1_c000"
+    },
+    {
+      "relation": "CUSTOMER_OF",
+      "evidence_span": "Our largest customers are leading semiconductor foundries and memory manufacturers, including TSMC, Intel Corporation, Samsung Electronics, and Micron Technology.",
+      "confidence": 0.93,
+      "source_doc_id": "SEC_10K_ASML_2024",
+      "source_section": "item_1",
+      "chunk_id": "SEC_10K_ASML_2024_item_1_c000",
+      "filing_date": "2024-02-28",
+      "source": "company:mu",
+      "target": "company:asml",
+      "key": "CUSTOMER_OF_SEC_10K_ASML_2024_SEC_10K_ASML_2024_item_1_c000"
+    },
+    {
+      "relation": "CUSTOMER_OF",
+      "evidence_span": "Our largest customers are leading semiconductor foundries and memory manufacturers, including TSMC, Intel Corporation, Samsung Electronics, and Micron Technology.",
+      "confidence": 0.93,
+      "source_doc_id": "SEC_10K_ASML_2024",
+      "source_section": "item_1",
+      "chunk_id": "SEC_10K_ASML_2024_item_1_c000",
+      "filing_date": "2024-02-28",
+      "source": "company:samsung_electronics",
+      "target": "company:asml",
+      "key": "CUSTOMER_OF_SEC_10K_ASML_2024_SEC_10K_ASML_2024_item_1_c000"
+    },
+    {
+      "relation": "SUPPLIER_OF",
+      "evidence_span": "Carl Zeiss SMT GmbH is our exclusive supplier of high-precision optical lenses, mirrors, and collector systems required for our EUV and DUV scanners.",
+      "confidence": 0.94,
+      "source_doc_id": "SEC_10K_ASML_2024",
+      "source_section": "item_1",
+      "chunk_id": "SEC_10K_ASML_2024_item_1_c000",
+      "filing_date": "2024-02-28",
+      "source": "company:carl_zeiss",
+      "target": "company:asml",
+      "key": "SUPPLIER_OF_SEC_10K_ASML_2024_SEC_10K_ASML_2024_item_1_c000"
+    },
+    {
+      "relation": "SUBSIDIARY_OF",
+      "evidence_span": "1. ASML Netherlands B.V. - Jurisdiction: Netherlands",
+      "confidence": 0.98,
+      "source_doc_id": "SEC_10K_ASML_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_ASML_2024_exhibit_21_c000",
+      "filing_date": "2024-02-28",
+      "source": "subsidiary:asml_netherlands",
+      "target": "company:asml",
+      "key": "SUBSIDIARY_OF_SEC_10K_ASML_2024_SEC_10K_ASML_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "OPERATES_IN",
+      "evidence_span": "1. ASML Netherlands B.V. - Jurisdiction: Netherlands",
+      "confidence": 0.95,
+      "source_doc_id": "SEC_10K_ASML_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_ASML_2024_exhibit_21_c000",
+      "filing_date": "2024-02-28",
+      "source": "subsidiary:asml_netherlands",
+      "target": "region:netherlands",
+      "key": "OPERATES_IN_SEC_10K_ASML_2024_SEC_10K_ASML_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "SUBSIDIARY_OF",
+      "evidence_span": "2. ASML US, LLC - Jurisdiction: Delaware, United States",
+      "confidence": 0.98,
+      "source_doc_id": "SEC_10K_ASML_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_ASML_2024_exhibit_21_c000",
+      "filing_date": "2024-02-28",
+      "source": "subsidiary:asml_us",
+      "target": "company:asml",
+      "key": "SUBSIDIARY_OF_SEC_10K_ASML_2024_SEC_10K_ASML_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "OPERATES_IN",
+      "evidence_span": "2. ASML US, LLC - Jurisdiction: Delaware, United States",
+      "confidence": 0.95,
+      "source_doc_id": "SEC_10K_ASML_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_ASML_2024_exhibit_21_c000",
+      "filing_date": "2024-02-28",
+      "source": "subsidiary:asml_us",
+      "target": "country:delaware",
+      "key": "OPERATES_IN_SEC_10K_ASML_2024_SEC_10K_ASML_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "SUBSIDIARY_OF",
+      "evidence_span": "3. Cymer LLC - Jurisdiction: California, United States",
+      "confidence": 0.98,
+      "source_doc_id": "SEC_10K_ASML_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_ASML_2024_exhibit_21_c000",
+      "filing_date": "2024-02-28",
+      "source": "subsidiary:cymer",
+      "target": "company:asml",
+      "key": "SUBSIDIARY_OF_SEC_10K_ASML_2024_SEC_10K_ASML_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "OPERATES_IN",
+      "evidence_span": "3. Cymer LLC - Jurisdiction: California, United States",
+      "confidence": 0.95,
+      "source_doc_id": "SEC_10K_ASML_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_ASML_2024_exhibit_21_c000",
+      "filing_date": "2024-02-28",
+      "source": "subsidiary:cymer",
+      "target": "country:california",
+      "key": "OPERATES_IN_SEC_10K_ASML_2024_SEC_10K_ASML_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "SUBSIDIARY_OF",
+      "evidence_span": "4. ASML Hong Kong Limited - Jurisdiction: Hong Kong",
+      "confidence": 0.98,
+      "source_doc_id": "SEC_10K_ASML_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_ASML_2024_exhibit_21_c000",
+      "filing_date": "2024-02-28",
+      "source": "subsidiary:asml_hong_kong",
+      "target": "company:asml",
+      "key": "SUBSIDIARY_OF_SEC_10K_ASML_2024_SEC_10K_ASML_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "OPERATES_IN",
+      "evidence_span": "4. ASML Hong Kong Limited - Jurisdiction: Hong Kong",
+      "confidence": 0.95,
+      "source_doc_id": "SEC_10K_ASML_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_ASML_2024_exhibit_21_c000",
+      "filing_date": "2024-02-28",
+      "source": "subsidiary:asml_hong_kong",
+      "target": "country:hong_kong",
+      "key": "OPERATES_IN_SEC_10K_ASML_2024_SEC_10K_ASML_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "SUBSIDIARY_OF",
+      "evidence_span": "5. ASML Korea Co. Ltd. - Jurisdiction: Hwaseong, South Korea",
+      "confidence": 0.98,
+      "source_doc_id": "SEC_10K_ASML_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_ASML_2024_exhibit_21_c000",
+      "filing_date": "2024-02-28",
+      "source": "subsidiary:asml_korea",
+      "target": "company:asml",
+      "key": "SUBSIDIARY_OF_SEC_10K_ASML_2024_SEC_10K_ASML_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "OPERATES_IN",
+      "evidence_span": "5. ASML Korea Co. Ltd. - Jurisdiction: Hwaseong, South Korea",
+      "confidence": 0.95,
+      "source_doc_id": "SEC_10K_ASML_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_ASML_2024_exhibit_21_c000",
+      "filing_date": "2024-02-28",
+      "source": "subsidiary:asml_korea",
+      "target": "country:hwaseong",
+      "key": "OPERATES_IN_SEC_10K_ASML_2024_SEC_10K_ASML_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "SUBSIDIARY_OF",
+      "evidence_span": "6. ASML Taiwan Joint Services Co., Ltd. - Jurisdiction: Hsinchu, Taiwan",
+      "confidence": 0.98,
+      "source_doc_id": "SEC_10K_ASML_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_ASML_2024_exhibit_21_c000",
+      "filing_date": "2024-02-28",
+      "source": "subsidiary:asml_taiwan_joint_services",
+      "target": "company:asml",
+      "key": "SUBSIDIARY_OF_SEC_10K_ASML_2024_SEC_10K_ASML_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "OPERATES_IN",
+      "evidence_span": "6. ASML Taiwan Joint Services Co., Ltd. - Jurisdiction: Hsinchu, Taiwan",
+      "confidence": 0.95,
+      "source_doc_id": "SEC_10K_ASML_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_ASML_2024_exhibit_21_c000",
+      "filing_date": "2024-02-28",
+      "source": "subsidiary:asml_taiwan_joint_services",
+      "target": "region:taiwan",
+      "key": "OPERATES_IN_SEC_10K_ASML_2024_SEC_10K_ASML_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "SUBSIDIARY_OF",
+      "evidence_span": "7. Berliner Glas KGaA - Jurisdiction: Berlin, Germany",
+      "confidence": 0.98,
+      "source_doc_id": "SEC_10K_ASML_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_ASML_2024_exhibit_21_c000",
+      "filing_date": "2024-02-28",
+      "source": "subsidiary:berliner_glas",
+      "target": "company:asml",
+      "key": "SUBSIDIARY_OF_SEC_10K_ASML_2024_SEC_10K_ASML_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "OPERATES_IN",
+      "evidence_span": "7. Berliner Glas KGaA - Jurisdiction: Berlin, Germany",
+      "confidence": 0.95,
+      "source_doc_id": "SEC_10K_ASML_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_ASML_2024_exhibit_21_c000",
+      "filing_date": "2024-02-28",
+      "source": "subsidiary:berliner_glas",
+      "target": "country:berlin",
+      "key": "OPERATES_IN_SEC_10K_ASML_2024_SEC_10K_ASML_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "SUBSIDIARY_OF",
+      "evidence_span": "1. Xilinx, Inc. - Jurisdiction: Delaware, United States",
+      "confidence": 0.98,
+      "source_doc_id": "SEC_10K_AMD_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_AMD_2024_exhibit_21_c000",
+      "filing_date": "2024-02-05",
+      "source": "subsidiary:xilinx",
+      "target": "company:amd",
+      "key": "SUBSIDIARY_OF_SEC_10K_AMD_2024_SEC_10K_AMD_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "OPERATES_IN",
+      "evidence_span": "1. Xilinx, Inc. - Jurisdiction: Delaware, United States",
+      "confidence": 0.95,
+      "source_doc_id": "SEC_10K_AMD_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_AMD_2024_exhibit_21_c000",
+      "filing_date": "2024-02-05",
+      "source": "subsidiary:xilinx",
+      "target": "country:delaware",
+      "key": "OPERATES_IN_SEC_10K_AMD_2024_SEC_10K_AMD_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "SUBSIDIARY_OF",
+      "evidence_span": "2. AMD International Sales & Service Ltd - Jurisdiction: Delaware, United States",
+      "confidence": 0.98,
+      "source_doc_id": "SEC_10K_AMD_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_AMD_2024_exhibit_21_c000",
+      "filing_date": "2024-02-05",
+      "source": "subsidiary:amd_international_sales_&_service",
+      "target": "company:amd",
+      "key": "SUBSIDIARY_OF_SEC_10K_AMD_2024_SEC_10K_AMD_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "OPERATES_IN",
+      "evidence_span": "2. AMD International Sales & Service Ltd - Jurisdiction: Delaware, United States",
+      "confidence": 0.95,
+      "source_doc_id": "SEC_10K_AMD_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_AMD_2024_exhibit_21_c000",
+      "filing_date": "2024-02-05",
+      "source": "subsidiary:amd_international_sales_&_service",
+      "target": "country:delaware",
+      "key": "OPERATES_IN_SEC_10K_AMD_2024_SEC_10K_AMD_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "SUBSIDIARY_OF",
+      "evidence_span": "3. Advanced Micro Devices (Singapore) Pte Ltd - Jurisdiction: Singapore",
+      "confidence": 0.98,
+      "source_doc_id": "SEC_10K_AMD_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_AMD_2024_exhibit_21_c000",
+      "filing_date": "2024-02-05",
+      "source": "subsidiary:advanced_micro_devices_singapore",
+      "target": "company:amd",
+      "key": "SUBSIDIARY_OF_SEC_10K_AMD_2024_SEC_10K_AMD_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "OPERATES_IN",
+      "evidence_span": "3. Advanced Micro Devices (Singapore) Pte Ltd - Jurisdiction: Singapore",
+      "confidence": 0.95,
+      "source_doc_id": "SEC_10K_AMD_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_AMD_2024_exhibit_21_c000",
+      "filing_date": "2024-02-05",
+      "source": "subsidiary:advanced_micro_devices_singapore",
+      "target": "country:singapore",
+      "key": "OPERATES_IN_SEC_10K_AMD_2024_SEC_10K_AMD_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "SUBSIDIARY_OF",
+      "evidence_span": "4. AMD Technology (China) Co., Ltd. - Jurisdiction: Beijing, China",
+      "confidence": 0.98,
+      "source_doc_id": "SEC_10K_AMD_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_AMD_2024_exhibit_21_c000",
+      "filing_date": "2024-02-05",
+      "source": "subsidiary:amd_technology_china",
+      "target": "company:amd",
+      "key": "SUBSIDIARY_OF_SEC_10K_AMD_2024_SEC_10K_AMD_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "OPERATES_IN",
+      "evidence_span": "4. AMD Technology (China) Co., Ltd. - Jurisdiction: Beijing, China",
+      "confidence": 0.95,
+      "source_doc_id": "SEC_10K_AMD_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_AMD_2024_exhibit_21_c000",
+      "filing_date": "2024-02-05",
+      "source": "subsidiary:amd_technology_china",
+      "target": "country:beijing",
+      "key": "OPERATES_IN_SEC_10K_AMD_2024_SEC_10K_AMD_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "SUBSIDIARY_OF",
+      "evidence_span": "5. AMD India Private Limited - Jurisdiction: Bengaluru, India",
+      "confidence": 0.98,
+      "source_doc_id": "SEC_10K_AMD_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_AMD_2024_exhibit_21_c000",
+      "filing_date": "2024-02-05",
+      "source": "subsidiary:amd_india",
+      "target": "company:amd",
+      "key": "SUBSIDIARY_OF_SEC_10K_AMD_2024_SEC_10K_AMD_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "OPERATES_IN",
+      "evidence_span": "5. AMD India Private Limited - Jurisdiction: Bengaluru, India",
+      "confidence": 0.95,
+      "source_doc_id": "SEC_10K_AMD_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_AMD_2024_exhibit_21_c000",
+      "filing_date": "2024-02-05",
+      "source": "subsidiary:amd_india",
+      "target": "country:bengaluru",
+      "key": "OPERATES_IN_SEC_10K_AMD_2024_SEC_10K_AMD_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "SUBSIDIARY_OF",
+      "evidence_span": "6. Pensando Systems Inc. - Jurisdiction: Delaware, United States",
+      "confidence": 0.98,
+      "source_doc_id": "SEC_10K_AMD_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_AMD_2024_exhibit_21_c000",
+      "filing_date": "2024-02-05",
+      "source": "subsidiary:pensando_systems",
+      "target": "company:amd",
+      "key": "SUBSIDIARY_OF_SEC_10K_AMD_2024_SEC_10K_AMD_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "OPERATES_IN",
+      "evidence_span": "6. Pensando Systems Inc. - Jurisdiction: Delaware, United States",
+      "confidence": 0.95,
+      "source_doc_id": "SEC_10K_AMD_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_AMD_2024_exhibit_21_c000",
+      "filing_date": "2024-02-05",
+      "source": "subsidiary:pensando_systems",
+      "target": "country:delaware",
+      "key": "OPERATES_IN_SEC_10K_AMD_2024_SEC_10K_AMD_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "SUBSIDIARY_OF",
+      "evidence_span": "1. Mobileye Global Inc. - Jurisdiction: Delaware, United States",
+      "confidence": 0.98,
+      "source_doc_id": "SEC_10K_INTC_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_INTC_2024_exhibit_21_c000",
+      "filing_date": "2024-01-26",
+      "source": "subsidiary:mobileye_global",
+      "target": "company:intc",
+      "key": "SUBSIDIARY_OF_SEC_10K_INTC_2024_SEC_10K_INTC_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "OPERATES_IN",
+      "evidence_span": "1. Mobileye Global Inc. - Jurisdiction: Delaware, United States",
+      "confidence": 0.95,
+      "source_doc_id": "SEC_10K_INTC_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_INTC_2024_exhibit_21_c000",
+      "filing_date": "2024-01-26",
+      "source": "subsidiary:mobileye_global",
+      "target": "country:delaware",
+      "key": "OPERATES_IN_SEC_10K_INTC_2024_SEC_10K_INTC_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "SUBSIDIARY_OF",
+      "evidence_span": "2. Intel Ireland Limited - Jurisdiction: Cayman Islands",
+      "confidence": 0.98,
+      "source_doc_id": "SEC_10K_INTC_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_INTC_2024_exhibit_21_c000",
+      "filing_date": "2024-01-26",
+      "source": "subsidiary:intel_ireland",
+      "target": "company:intc",
+      "key": "SUBSIDIARY_OF_SEC_10K_INTC_2024_SEC_10K_INTC_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "OPERATES_IN",
+      "evidence_span": "2. Intel Ireland Limited - Jurisdiction: Cayman Islands",
+      "confidence": 0.95,
+      "source_doc_id": "SEC_10K_INTC_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_INTC_2024_exhibit_21_c000",
+      "filing_date": "2024-01-26",
+      "source": "subsidiary:intel_ireland",
+      "target": "country:cayman_islands",
+      "key": "OPERATES_IN_SEC_10K_INTC_2024_SEC_10K_INTC_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "SUBSIDIARY_OF",
+      "evidence_span": "3. Intel Semiconductor (Dalian) Ltd. - Jurisdiction: China",
+      "confidence": 0.98,
+      "source_doc_id": "SEC_10K_INTC_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_INTC_2024_exhibit_21_c000",
+      "filing_date": "2024-01-26",
+      "source": "subsidiary:intel_semiconductor_dalian",
+      "target": "company:intc",
+      "key": "SUBSIDIARY_OF_SEC_10K_INTC_2024_SEC_10K_INTC_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "OPERATES_IN",
+      "evidence_span": "3. Intel Semiconductor (Dalian) Ltd. - Jurisdiction: China",
+      "confidence": 0.95,
+      "source_doc_id": "SEC_10K_INTC_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_INTC_2024_exhibit_21_c000",
+      "filing_date": "2024-01-26",
+      "source": "subsidiary:intel_semiconductor_dalian",
+      "target": "region:china",
+      "key": "OPERATES_IN_SEC_10K_INTC_2024_SEC_10K_INTC_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "SUBSIDIARY_OF",
+      "evidence_span": "4. Intel Electronics Ltd. - Jurisdiction: Israel",
+      "confidence": 0.98,
+      "source_doc_id": "SEC_10K_INTC_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_INTC_2024_exhibit_21_c000",
+      "filing_date": "2024-01-26",
+      "source": "subsidiary:intel_electronics",
+      "target": "company:intc",
+      "key": "SUBSIDIARY_OF_SEC_10K_INTC_2024_SEC_10K_INTC_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "OPERATES_IN",
+      "evidence_span": "4. Intel Electronics Ltd. - Jurisdiction: Israel",
+      "confidence": 0.95,
+      "source_doc_id": "SEC_10K_INTC_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_INTC_2024_exhibit_21_c000",
+      "filing_date": "2024-01-26",
+      "source": "subsidiary:intel_electronics",
+      "target": "country:israel",
+      "key": "OPERATES_IN_SEC_10K_INTC_2024_SEC_10K_INTC_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "SUBSIDIARY_OF",
+      "evidence_span": "5. Altera Corporation - Jurisdiction: Delaware, United States",
+      "confidence": 0.98,
+      "source_doc_id": "SEC_10K_INTC_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_INTC_2024_exhibit_21_c000",
+      "filing_date": "2024-01-26",
+      "source": "subsidiary:altera",
+      "target": "company:intc",
+      "key": "SUBSIDIARY_OF_SEC_10K_INTC_2024_SEC_10K_INTC_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "OPERATES_IN",
+      "evidence_span": "5. Altera Corporation - Jurisdiction: Delaware, United States",
+      "confidence": 0.95,
+      "source_doc_id": "SEC_10K_INTC_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_INTC_2024_exhibit_21_c000",
+      "filing_date": "2024-01-26",
+      "source": "subsidiary:altera",
+      "target": "country:delaware",
+      "key": "OPERATES_IN_SEC_10K_INTC_2024_SEC_10K_INTC_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "SUBSIDIARY_OF",
+      "evidence_span": "6. Intel Technology Asia Pte Ltd - Jurisdiction: Singapore",
+      "confidence": 0.98,
+      "source_doc_id": "SEC_10K_INTC_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_INTC_2024_exhibit_21_c000",
+      "filing_date": "2024-01-26",
+      "source": "subsidiary:intel_technology_asia",
+      "target": "company:intc",
+      "key": "SUBSIDIARY_OF_SEC_10K_INTC_2024_SEC_10K_INTC_2024_exhibit_21_c000"
+    },
+    {
+      "relation": "OPERATES_IN",
+      "evidence_span": "6. Intel Technology Asia Pte Ltd - Jurisdiction: Singapore",
+      "confidence": 0.95,
+      "source_doc_id": "SEC_10K_INTC_2024",
+      "source_section": "exhibit_21",
+      "chunk_id": "SEC_10K_INTC_2024_exhibit_21_c000",
+      "filing_date": "2024-01-26",
+      "source": "subsidiary:intel_technology_asia",
+      "target": "country:singapore",
+      "key": "OPERATES_IN_SEC_10K_INTC_2024_SEC_10K_INTC_2024_exhibit_21_c000"
+    }
+  ]
+}
