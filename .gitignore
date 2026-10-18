@@ -1,0 +1,61 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment Variables
+.env
+*.env.local
+
+# IDE & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Data caches (raw bulky filings, temp downloads)
+data/raw/*.html
+data/raw/*.htm
+data/raw/*.txt
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/graphs/.gitkeep
+!data/benchmark/.gitkeep
+
+# Streamlit
+.streamlit/

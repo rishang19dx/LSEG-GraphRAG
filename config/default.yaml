@@ -1,0 +1,142 @@
+project:
+  name: "LSEG-GraphRAG"
+  description: "Financial Knowledge Graph + GraphRAG for Multi-Hop Questions"
+  version: "0.1.0"
+
+universe:
+  sector: "Semiconductors & Electronics Manufacturing Supply Chain"
+  companies:
+    - symbol: "NVDA"
+      name: "NVIDIA Corporation"
+      cik: "0001045810"
+      tier: "Fabless Chip Designer"
+    - symbol: "TSM"
+      name: "Taiwan Semiconductor Manufacturing Company"
+      cik: "0001046179"
+      tier: "Pure-play Foundry"
+    - symbol: "AAPL"
+      name: "Apple Inc."
+      cik: "0000320193"
+      tier: "OEM / Major Customer"
+    - symbol: "ASML"
+      name: "ASML Holding N.V."
+      cik: "0000937966"
+      tier: "Lithography Equipment Supplier"
+    - symbol: "AMD"
+      name: "Advanced Micro Devices, Inc."
+      cik: "0000002488"
+      tier: "Fabless Chip Designer"
+    - symbol: "INTC"
+      name: "Intel Corporation"
+      cik: "0000050863"
+      tier: "Integrated Device Manufacturer"
+    - symbol: "QCOM"
+      name: "Qualcomm Incorporated"
+      cik: "0000804328"
+      tier: "Fabless Communications / Chips"
+    - symbol: "AVGO"
+      name: "Broadcom Inc."
+      cik: "0001730168"
+      tier: "Diversified Semiconductor / Infrastructure"
+    - symbol: "MU"
+      name: "Micron Technology, Inc."
+      cik: "0000723125"
+      tier: "Memory & Storage Chips"
+    - symbol: "AMAT"
+      name: "Applied Materials, Inc."
+      cik: "0000006951"
+      tier: "Semiconductor Equipment"
+    - symbol: "LRCX"
+      name: "Lam Research Corporation"
+      cik: "0000707549"
+      tier: "Etch & Deposition Equipment"
+    - symbol: "KLAC"
+      name: "KLA Corporation"
+      cik: "0000314606"
+      tier: "Process Control & Inspection"
+    - symbol: "TXN"
+      name: "Texas Instruments Incorporated"
+      cik: "0000097476"
+      tier: "Analog & Embedded Processing"
+    - symbol: "ADI"
+      name: "Analog Devices, Inc."
+      cik: "0000006281"
+      tier: "Analog & Mixed Signal"
+    - symbol: "MRVL"
+      name: "Marvell Technology, Inc."
+      cik: "0001835632"
+      tier: "Data Infrastructure Semiconductor"
+
+schema:
+  relation_types:
+    - name: "SUBSIDIARY_OF"
+      description: "Tail is the parent entity, Head is the subsidiary"
+      head_types: ["Company"]
+      tail_types: ["Company"]
+    - name: "SUPPLIER_OF"
+      description: "Head supplies components, materials, equipment, or services to Tail"
+      head_types: ["Company"]
+      tail_types: ["Company"]
+    - name: "CUSTOMER_OF"
+      description: "Head purchases products or services from Tail"
+      head_types: ["Company"]
+      tail_types: ["Company"]
+    - name: "COMPETITOR_OF"
+      description: "Head competes in products/markets with Tail"
+      head_types: ["Company"]
+      tail_types: ["Company"]
+    - name: "OPERATES_IN"
+      description: "Head conducts operations, manufacturing, or sales in geographic region/country Tail"
+      head_types: ["Company"]
+      tail_types: ["Region", "Country"]
+    - name: "EXPOSED_TO"
+      description: "Head has risk, dependency, or regulatory exposure to Tail"
+      head_types: ["Company"]
+      tail_types: ["RiskFactor", "Commodity", "Region", "Event", "RegulatoryPolicy"]
+
+ingestion:
+  form_type: "10-K"
+  sections:
+    - "item_1"    # Business
+    - "item_1a"   # Risk Factors
+    - "exhibit_21" # Subsidiaries list
+  chunking:
+    chunk_size: 1000
+    chunk_overlap: 200
+    respect_paragraphs: true
+
+extraction:
+  confidence_threshold: 0.70
+  require_evidence_span: true
+  batch_size: 5
+
+resolution:
+  similarity_threshold: 0.85
+  use_alias_dictionary: true
+  use_llm_disambiguation: true
+
+retrieval:
+  vector:
+    top_k: 5
+    similarity_metric: "cosine"
+  graph:
+    max_hops: 3
+    max_subgraph_nodes: 50
+    direction: "both"
+  hybrid:
+    top_k_chunks: 5
+    graph_candidate_depth: 2
+    graph_weight: 0.5
+    vector_weight: 0.5
+
+evaluation:
+  hop_stratification: [1, 2, 3]
+  question_types:
+    - "direct_lookup"
+    - "chained_relation"
+    - "multi_hop_exposure"
+    - "aggregation"
+    - "path_reasoning"
+  cost_model:
+    prompt_token_cost_per_million: 0.150  # gpt-4o-mini pricing
+    completion_token_cost_per_million: 0.600
