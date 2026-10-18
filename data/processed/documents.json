@@ -1,0 +1,82 @@
+[
+  {
+    "doc_id": "SEC_10K_NVDA_2024",
+    "company_symbol": "NVDA",
+    "company_name": "NVIDIA Corporation",
+    "cik": "0001045810",
+    "form_type": "10-K",
+    "filing_date": "2024-02-21",
+    "source_url": "https://www.sec.gov/ix?doc=/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm",
+    "raw_path": null
+  },
+  {
+    "doc_id": "SEC_10K_TSM_2024",
+    "company_symbol": "TSM",
+    "company_name": "Taiwan Semiconductor Manufacturing Company Limited",
+    "cik": "0001046179",
+    "form_type": "20-F",
+    "filing_date": "2024-04-10",
+    "source_url": "https://www.sec.gov/ix?doc=/Archives/edgar/data/1046179/000104617924000007/tsm-20231231.htm",
+    "raw_path": null
+  },
+  {
+    "doc_id": "SEC_10K_AAPL_2024",
+    "company_symbol": "AAPL",
+    "company_name": "Apple Inc.",
+    "cik": "0000320193",
+    "form_type": "10-K",
+    "filing_date": "2024-11-01",
+    "source_url": "https://www.sec.gov/ix?doc=/Archives/edgar/data/320193/000032019324000106/aapl-20240928.htm",
+    "raw_path": null
+  },
+  {
+    "doc_id": "SEC_10K_ASML_2024",
+    "company_symbol": "ASML",
+    "company_name": "ASML Holding N.V.",
+    "cik": "0000937966",
+    "form_type": "20-F",
+    "filing_date": "2024-02-28",
+    "source_url": "https://www.sec.gov/ix?doc=/Archives/edgar/data/937966/000093796624000012/asml-20231231.htm",
+    "raw_path": null
+  },
+  {
+    "doc_id": "SEC_10K_AMD_2024",
+    "company_symbol": "AMD",
+    "company_name": "Advanced Micro Devices, Inc.",
+    "cik": "0000002488",
+    "form_type": "10-K",
+    "filing_date": "2024-02-05",
+    "source_url": "https://www.sec.gov/ix?doc=/Archives/edgar/data/2488/000000248824000012/amd-20231230.htm",
+    "raw_path": null
+  },
+  {
+    "doc_id": "SEC_10K_INTC_2024",
+    "company_symbol": "INTC",
+    "company_name": "Intel Corporation",
+    "cik": "0000050863",
+    "form_type": "10-K",
+    "filing_date": "2024-01-26",
+    "source_url": "https://www.sec.gov/ix?doc=/Archives/edgar/data/50863/000005086324000010/intc-20231230.htm",
+    "raw_path": null
+  },
+  {
+    "doc_id": "NEWS_2024_04_TAIWAN_QUAKE",
+    "company_symbol": "TSM",
+    "company_name": "Reuters Supply Chain Intelligence",
+    "cik": null,
+    "form_type": "News",
+    "filing_date": "2024-04-04",
+    "source_url": "https://www.reuters.com/technology/taiwan-quake-chip-supply-impact-2024-04-04/",
+    "raw_path": null
+  },
+  {
+    "doc_id": "NEWS_2024_06_DUTCH_EXPORT_RULES",
+    "company_symbol": "ASML",
+    "company_name": "Financial Times Tech Dispatch",
+    "cik": null,
+    "form_type": "News",
+    "filing_date": "2024-06-18",
+    "source_url": "https://www.ft.com/content/asml-export-restrictions-update-2024",
+    "raw_path": null
+  }
+]
