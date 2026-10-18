@@ -1,0 +1,239 @@
+[
+  {
+    "id": "q01_hop1_direct",
+    "question": "Which company manufactures advanced semiconductor wafers for NVIDIA?",
+    "hop_count": 1,
+    "question_type": "direct_lookup",
+    "gold_entities": ["TSMC", "Taiwan Semiconductor Manufacturing Company"],
+    "gold_facts": [
+      "TSMC manufactures our advanced semiconductor wafers including Hopper and Blackwell",
+      "NVIDIA utilizes a fabless manufacturing model partnering with TSMC"
+    ],
+    "is_gold_subset": true
+  },
+  {
+    "id": "q02_hop1_direct",
+    "question": "Who is the primary and sole supplier of Extreme Ultraviolet (EUV) lithography scanners to TSMC?",
+    "hop_count": 1,
+    "question_type": "direct_lookup",
+    "gold_entities": ["ASML", "ASML Holding N.V."],
+    "gold_facts": [
+      "ASML Holding N.V. is our primary and sole supplier of Extreme Ultraviolet (EUV) lithography scanners"
+    ],
+    "is_gold_subset": true
+  },
+  {
+    "id": "q03_hop1_direct",
+    "question": "What is the primary contract manufacturer and assembly partner for Apple's iPhone products?",
+    "hop_count": 1,
+    "question_type": "direct_lookup",
+    "gold_entities": ["Foxconn", "Hon Hai Precision Industry"],
+    "gold_facts": [
+      "Hon Hai Precision Industry Co., Ltd. (Foxconn) is our primary assembly partner for iPhone products"
+    ],
+    "is_gold_subset": true
+  },
+  {
+    "id": "q04_hop1_direct",
+    "question": "Name the high-precision optics supplier that exclusively supplies lenses and mirrors to ASML for its EUV scanners.",
+    "hop_count": 1,
+    "question_type": "direct_lookup",
+    "gold_entities": ["Carl Zeiss", "Carl Zeiss SMT GmbH"],
+    "gold_facts": [
+      "Carl Zeiss SMT GmbH is our exclusive supplier of high-precision optical lenses, mirrors, and collector systems"
+    ],
+    "is_gold_subset": true
+  },
+  {
+    "id": "q05_hop1_direct",
+    "question": "Which memory manufacturer supplies advanced HBM3e high-bandwidth memory for NVIDIA and AMD AI accelerators?",
+    "hop_count": 1,
+    "question_type": "direct_lookup",
+    "gold_entities": ["Micron", "Micron Technology, Inc.", "SK Hynix"],
+    "gold_facts": [
+      "Our GPU architectures integrate advanced high-bandwidth memory (HBM3 and HBM3e) supplied by Micron Technology and SK Hynix"
+    ],
+    "is_gold_subset": true
+  },
+  {
+    "id": "q06_hop1_direct",
+    "question": "What is the primary subsidiary of NVIDIA located in Israel?",
+    "hop_count": 1,
+    "question_type": "direct_lookup",
+    "gold_entities": ["Mellanox Technologies, Ltd.", "Mellanox"],
+    "gold_facts": [
+      "Mellanox Technologies, Ltd. - Jurisdiction: Israel"
+    ],
+    "is_gold_subset": true
+  },
+  {
+    "id": "q07_hop2_chain",
+    "question": "Which company manufactures custom processors for Apple, and which equipment maker supplies it with EUV photolithography scanners?",
+    "hop_count": 2,
+    "question_type": "chained_relation",
+    "gold_entities": ["TSMC", "ASML"],
+    "gold_facts": [
+      "We outsource wafer fabrication of all our proprietary Apple Silicon chips exclusively to TSMC",
+      "ASML Holding N.V. is our primary and sole supplier of Extreme Ultraviolet (EUV) lithography scanners"
+    ],
+    "is_gold_subset": true
+  },
+  {
+    "id": "q08_hop2_chain",
+    "question": "Which foundry manufactures AI accelerators for AMD, and in which country are its primary wafer fabrication plants located?",
+    "hop_count": 2,
+    "question_type": "chained_relation",
+    "gold_entities": ["TSMC", "Taiwan"],
+    "gold_facts": [
+      "TSMC is our principal foundry partner manufacturing our advanced EPYC processors and Instinct MI300 series",
+      "The majority of our primary wafer fabrication facilities are located in Taiwan"
+    ],
+    "is_gold_subset": true
+  },
+  {
+    "id": "q09_hop2_exposure",
+    "question": "Which of NVIDIA's critical semiconductor manufacturing suppliers is directly exposed to seismic and earthquake risk in Taiwan?",
+    "hop_count": 2,
+    "question_type": "multi_hop_exposure",
+    "gold_entities": ["TSMC", "Taiwan Semiconductor Manufacturing Company", "Natural Disaster"],
+    "gold_facts": [
+      "Taiwan Semiconductor Manufacturing Company (TSMC) manufactures our advanced semiconductor wafers",
+      "Taiwan is susceptible to natural disasters including earthquakes, typhoons, and periodic regional water shortages"
+    ],
+    "is_gold_subset": true
+  },
+  {
+    "id": "q10_hop2_exposure",
+    "question": "What U.S. government regulatory export policy restricts NVIDIA and AMD from shipping high-performance AI GPUs to China?",
+    "hop_count": 2,
+    "question_type": "multi_hop_exposure",
+    "gold_entities": ["US BIS Export Restrictions", "U.S. Department of Commerce"],
+    "gold_facts": [
+      "We are exposed to risks from international trade policies and export control regulations administered by the U.S. Department of Commerce Bureau of Industry and Security (BIS)",
+      "implemented updated export controls restricting the shipment of advanced AI processors to China"
+    ],
+    "is_gold_subset": true
+  },
+  {
+    "id": "q11_hop2_chain",
+    "question": "Which subsidiaries of ASML operate in the United States and Hong Kong?",
+    "hop_count": 2,
+    "question_type": "chained_relation",
+    "gold_entities": ["ASML US, LLC", "Cymer LLC", "ASML Hong Kong Limited"],
+    "gold_facts": [
+      "ASML US, LLC - Jurisdiction: Delaware, United States",
+      "Cymer LLC - Jurisdiction: California, United States",
+      "ASML Hong Kong Limited - Jurisdiction: Hong Kong"
+    ],
+    "is_gold_subset": true
+  },
+  {
+    "id": "q12_hop2_aggregation",
+    "question": "Which major technology companies share TSMC as their exclusive or principal semiconductor foundry partner?",
+    "hop_count": 2,
+    "question_type": "aggregation",
+    "gold_entities": ["Apple", "NVIDIA", "AMD", "Qualcomm"],
+    "gold_facts": [
+      "Our customers include global technology leaders such as Apple Inc., NVIDIA Corporation, Advanced Micro Devices (AMD), Qualcomm Incorporated"
+    ],
+    "is_gold_subset": true
+  },
+  {
+    "id": "q13_hop3_exposure",
+    "question": "Which of Apple's critical tier-1 suppliers is exposed to production halts resulting from earthquakes and seismic activity in Taiwan?",
+    "hop_count": 3,
+    "question_type": "multi_hop_exposure",
+    "gold_entities": ["TSMC", "Taiwan Semiconductor Manufacturing Company"],
+    "gold_facts": [
+      "We single-source our proprietary A-series and M-series chips from TSMC",
+      "Taiwan is susceptible to natural disasters including earthquakes",
+      "In April 2024, a major earthquake struck off the coast of Hualien, Taiwan"
+    ],
+    "is_gold_subset": true
+  },
+  {
+    "id": "q14_hop3_path",
+    "question": "Trace the supply chain connection from Carl Zeiss SMT to NVIDIA Corporation.",
+    "hop_count": 3,
+    "question_type": "path_reasoning",
+    "gold_entities": ["Carl Zeiss", "ASML", "TSMC", "NVIDIA"],
+    "gold_facts": [
+      "Carl Zeiss SMT GmbH is our exclusive supplier of high-precision optical lenses and mirrors to ASML",
+      "ASML Holding N.V. is our primary and sole supplier of Extreme Ultraviolet (EUV) lithography scanners to TSMC",
+      "TSMC manufactures our advanced Hopper, Ada Lovelace, and Blackwell architectures for NVIDIA"
+    ],
+    "is_gold_subset": true
+  },
+  {
+    "id": "q15_hop3_path",
+    "question": "How is ASML Holding connected to Apple Inc. through the electronics manufacturing supply chain?",
+    "hop_count": 3,
+    "question_type": "path_reasoning",
+    "gold_entities": ["ASML", "TSMC", "Apple"],
+    "gold_facts": [
+      "ASML supplies EUV lithography scanners to TSMC",
+      "TSMC exclusively manufactures custom Apple Silicon processors for Apple"
+    ],
+    "is_gold_subset": true
+  },
+  {
+    "id": "q16_hop3_aggregation",
+    "question": "Which semiconductor equipment companies supply critical wafer processing or lithography tools to TSMC?",
+    "hop_count": 3,
+    "question_type": "aggregation",
+    "gold_entities": ["ASML", "Applied Materials", "Lam Research", "KLA Corporation"],
+    "gold_facts": [
+      "ASML Holding N.V. is our primary and sole supplier of Extreme Ultraviolet (EUV) lithography scanners",
+      "We also procure etch, deposition, and wafer cleaning systems from Applied Materials, Inc., Lam Research Corporation, and KLA Corporation"
+    ],
+    "is_gold_subset": true
+  },
+  {
+    "id": "q17_hop2_chain",
+    "question": "Which Intel manufacturing fabs or facilities are located in the Middle East and Europe?",
+    "hop_count": 2,
+    "question_type": "chained_relation",
+    "gold_entities": ["Israel", "Ireland", "Germany"],
+    "gold_facts": [
+      "internationally in Leixlip, Ireland and Kiryat Gat, Israel. We are also building new fabs in Magdeburg, Germany",
+      "Our operations in Israel (Fab 28 in Kiryat Gat) are exposed to regional security risks"
+    ],
+    "is_gold_subset": true
+  },
+  {
+    "id": "q18_hop3_exposure",
+    "question": "Which specialized advanced packaging technology supplied by TSMC creates a supply bottleneck for NVIDIA's AI GPUs?",
+    "hop_count": 3,
+    "question_type": "multi_hop_exposure",
+    "gold_entities": ["CoWoS Packaging Bottleneck", "TSMC"],
+    "gold_facts": [
+      "Substantially all of our advanced computing GPUs are packaged by TSMC using specialized CoWoS advanced packaging",
+      "Capacity shortages in advanced packaging can limit our ability to meet surging market demand"
+    ],
+    "is_gold_subset": true
+  },
+  {
+    "id": "q19_hop2_chain",
+    "question": "In which geographic countries does Hon Hai (Foxconn) operate major assembly manufacturing facilities for Apple?",
+    "hop_count": 2,
+    "question_type": "chained_relation",
+    "gold_entities": ["China", "India"],
+    "gold_facts": [
+      "Hon Hai Precision Industry Co., Ltd. (Foxconn) is our primary assembly partner for iPhone products, operating major manufacturing campuses in Zhengzhou and Shenzhen, China, as well as facilities in Tamil Nadu, India"
+    ],
+    "is_gold_subset": true
+  },
+  {
+    "id": "q20_hop3_path",
+    "question": "How is Carl Zeiss connected to Apple Inc. in the global supply chain?",
+    "hop_count": 3,
+    "question_type": "path_reasoning",
+    "gold_entities": ["Carl Zeiss", "ASML", "TSMC", "Apple"],
+    "gold_facts": [
+      "Carl Zeiss SMT supplies optical components to ASML",
+      "ASML supplies EUV lithography machines to TSMC",
+      "TSMC manufactures A-series and M-series chips for Apple"
+    ],
+    "is_gold_subset": true
+  }
+]
