@@ -5,7 +5,7 @@
 [![Tests: 19 Passed](https://img.shields.io/badge/tests-19%20passed-brightgreen.svg)]()
 [![PRD Status: Complete](https://img.shields.io/badge/PRD-Implemented%20v1.0-green.svg)]()
 
-> **Project for LSEG AI/ML Intern (Innovation & Intelligence Team)**  
+> **Context:** Advanced Financial NLP & Knowledge Graph Project (Prepared for LSEG AI/ML Problem Space - Innovation & Intelligence)  
 > **Author:** Rishang  
 > **Core Investigation:** *When is the extra cost of building and maintaining an explicit Knowledge Graph worth it over standard Vector RAG for complex financial relationships?*
 

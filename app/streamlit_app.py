@@ -69,7 +69,7 @@ kg, chunks, benchmark, v_retriever, g_retriever, h_retriever, answerer = load_pi
 # Sidebar
 st.sidebar.title("🕸️ LSEG-GraphRAG")
 st.sidebar.markdown("**Financial Knowledge Graph + Multi-Hop QA**")
-st.sidebar.caption("LSEG AI/ML Intern Research Project")
+st.sidebar.caption("Financial Knowledge Graph & Multi-Hop QA Project")
 
 nav = st.sidebar.radio(
     "Navigation",

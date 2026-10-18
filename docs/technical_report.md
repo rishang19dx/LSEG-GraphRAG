@@ -1,7 +1,7 @@
 # Technical Report: Financial Knowledge Graph + GraphRAG for Multi-Hop Questions
 
 **Author:** Rishang  
-**Role & Team:** AI/ML Intern Project, Innovation & Intelligence Team, LSEG  
+**Context:** Advanced Financial Knowledge Graph & Multi-Hop QA (Prepared for LSEG AI/ML Problem Space)  
 **Date:** October 2026  
 **Status:** Complete (v1.0)  
 
